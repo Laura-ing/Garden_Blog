@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Articol — Grădina Noastră</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ─── NAV ──────────────────────────────────────────────────── -->
+  <nav id="nav">
+    <a href="index.html" class="nav-logo">Grădina <em>Noastră</em></a>
+    <ul class="nav-links">
+      <li><a href="despre.html#gradina">Grădina</a></li>
+      <li><a href="despre.html#copii">Copii &amp; Natură</a></li>
+      <li><a href="despre.html#galerie">Galerie</a></li>
+      <li><a href="index.html">Blog</a></li>
+      <li><a href="despre.html#contact">Contact</a></li>
+    </ul>
+    <div class="nav-toggle" id="navToggle" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="despre.html#gradina" onclick="toggleMenu()">Grădina</a>
+    <a href="despre.html#copii"   onclick="toggleMenu()">Copii &amp; Natură</a>
+    <a href="despre.html#galerie" onclick="toggleMenu()">Galerie</a>
+    <a href="index.html"          onclick="toggleMenu()">Blog</a>
+    <a href="despre.html#contact" onclick="toggleMenu()">Contact</a>
+  </div>
+
+  <!-- ─── CONȚINUT ARTICOL (randat de blog.js) ─────────────────── -->
+  <div id="article-container"></div>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────────── -->
+  <footer>
+    <div class="footer-logo">Grădina <em>Noastră</em></div>
+    <div class="footer-note">Cu drag, din inima naturii · 2024</div>
+  </footer>
+
+  <script src="data/articles.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/blog.js"></script>
+  <script>initArticlePage();</script>
+</body>
+</html>
