@@ -53,10 +53,10 @@ const ARTICLES = [
       <p>Prima tentație a fost să plantăm imediat, să construim, să transformăm. Principiile de permacultură spun altceva: observă timp de un an întreg înainte de a face schimbări majore. Unde cade apa? De unde vine vântul? Care zone sunt umbroase vara, însorite toamna?</p>
       <p>Am ascultat parțial. Și chiar și observațiile parțiale ne-au salvat de câteva greșeli mari.</p>
       <h3>Lecția 2: Solul este totul</h3>
-      <p>Am început să înțelegem că nu cultivăm plante — cultivăm sol. Un sol viu, plin de ciuperci, bacterii, râme, este fundația a tot ce urmează. Am adăugat compost, am mulcit cu paie,am terasat un nive;, am plantat plante fixatoare de azot între rânduri.</p>
+      <p>Am început să înțelegem că nu cultivăm plante — cultivăm sol. Un sol viu, plin de ciuperci, bacterii, râme, este fundația a tot ce urmează. Am adăugat compost, am mulcit cu paie,am terasat un am plantat plante fixatoare de azot între rânduri.</p>
       <h3>Lecția 3: Natura știe mai bine</h3>
       <p>Câteva plante pe care le-am considerat „buruieni" s-au dovedit a fi exact ce avea nevoie terenul nostru. Pătlagina — indicator de sol compactat, dar și plantă medicinală valoroasă. Urzica — semn de azot în sol, și un superaliment pentru compost.</p>
-     
+      <p>Anul doi a început cu mai multă umilință și mai multă curiozitate. Exact ce trebuie.</p>
     `
   },
   {
@@ -69,6 +69,7 @@ const ARTICLES = [
     author: "Laura",
     excerpt: "Nu e nevoie de o grădină perfectă — e nevoie de răbdare, curiozitate și acceptarea că picioarele vor fi mereu murdare de pământ bun.",
     content: `
+    
       <p>Când am decis să implicăm copiii în grădină, cea mai mare teamă a mea era că nu vor fi interesați, că se vor plictisi, că va trebui să îi conving cu recompense. M-am înșelat complet.</p>
       <h3>Copiii și pământul — o conexiune naturală</h3>
       <p>Există ceva primar în relația unui copil cu pământul. Nu trebuie să îi înveți să atingă, să sape, să miroase. O fac instinctiv. Tot ce trebuie tu să faci este să le dai spațiu și să nu te temi de murdărie.</p>
