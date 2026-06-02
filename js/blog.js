@@ -87,7 +87,7 @@ function initBlogList() {
     });
   }
 
-  render(ARTICLES);
+ render([]);
 }
 
 /* ─── ARTICOL.HTML — articol individual ─────────────────────── */
