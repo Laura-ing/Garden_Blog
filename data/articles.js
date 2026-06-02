@@ -6,10 +6,10 @@ const ARTICLES = [
   {
     id: "plante-companion",
     title: "Plante companion: cine se înțelege bine în grădină",
-    date: "2026-05-15",
+    date: "2026-06-01",
     category: "Grădinărit",
     tags: ["plante companion", "biodiversitate", "legume", "permacultură"],
-    image: "images/dovleac.jpeg",
+    image: "images/flori.jpeg",
     author: "Laura",
     excerpt: "Unele plante se ajută reciproc când cresc împreună. Iată cum folosim asocierile de plante în grădina noastră pentru recolte mai bune și mai puțini dăunători.",
     content: `
