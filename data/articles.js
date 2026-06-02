@@ -53,7 +53,7 @@ const ARTICLES = [
       <p>Prima tentație a fost să plantăm imediat, să construim, să transformăm. Principiile de permacultură spun altceva: observă timp de un an întreg înainte de a face schimbări majore. Unde cade apa? De unde vine vântul? Care zone sunt umbroase vara, însorite toamna?</p>
       <p>Am ascultat parțial. Și chiar și observațiile parțiale ne-au salvat de câteva greșeli mari.</p>
       <h3>Lecția 2: Solul este totul</h3>
-      <p>Am început să înțelegem că nu cultivăm plante — cultivăm sol. Un sol viu, plin de ciuperci, bacterii, râme, este fundația a tot ce urmează. Am adăugat compost, am mulcit cu paie,am terasat un nive;, am plantat plante fixatoare de azot între rânduri.</p>
+      <p>Am început să înțelegem că nu cultivăm plante — cultivăm sol. Un sol viu, plin de ciuperci, bacterii, râme, este fundația a tot ce urmează. Am adăugat compost, am mulcit cu paie,am terasat un nivel, am plantat plante fixatoare de azot între rânduri.</p>
       <h3>Lecția 3: Natura știe mai bine</h3>
       <p>Câteva plante pe care le-am considerat „buruieni" s-au dovedit a fi exact ce avea nevoie terenul nostru. Pătlagina — indicator de sol compactat, dar și plantă medicinală valoroasă. Urzica — semn de azot în sol, și un superaliment pentru compost.</p>
       
