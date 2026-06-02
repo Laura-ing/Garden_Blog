@@ -14,18 +14,41 @@ const ARTICLES = [
     excerpt: "Unele plante se ajută reciproc când cresc împreună. Iată cum folosim asocierile de plante în grădina noastră pentru recolte mai bune și mai puțini dăunători.",
     content: `
       <p>Una dintre cele mai frumoase lecții pe care ni le-a oferit grădina este că plantele, la fel ca oamenii, se înțeleg mai bine cu unii vecini decât cu alții.</p>
-      <h3>Ce sunt plantele companion?</h3>
+      
+      <h3 style="color:#2d6a4f">🌿 Ce sunt plantele companion?</h3>
       <p>Plantele companion sunt plante care, crescând împreună, se ajută reciproc — prin respingerea dăunătorilor, atragerea polenizatorilor, îmbogățirea solului sau oferirea de umbră protectoare.</p>
-      <h3>Trio-ul celor 3 surori</h3>
-      <p>Cea mai veche asociere cunoscută vine de la nativii americani: <strong>porumb, fasole și dovleac</strong>. Porumbul oferă suport fasolei, fasolea fixează azotul în sol pentru toate trei, iar dovleacul acoperă pământul cu frunzele lui mari, păstrând umezeala și ținând buruienile la distanță.</p>
-      <h3>Roșii și busuioc</h3>
-      <p>În grădina noastră, busuiocul crește mereu lângă roșii. Nu doar că respinge insectele dăunătoare, dar mulți grădinari spun că îmbunătățește și gustul roșiilor. Noi credem că e adevărat.</p>
-      <h3>Morcovi și ceapă</h3>
-      <p>O altă asociere clasică: musca morcovului nu suportă mirosul cepei, iar musca cepei fuge de mirosul morcovului. Plantate împreună, se protejează reciproc fără niciun pesticid.</p>
-      <h3>Flori printre legume</h3>
-      <p>Gălbenelele, lavanda și menta sunt prietenii oricărei grădini de legume. Atrag albinele și alte insecte polenizatoare și țin la distanță afidele și alți dăunători. La noi cresc libere printre rânduri — și grădina arată minunat.</p>
-      <h3>Sfatul nostru</h3>
-      <p>Nu ai nevoie de o grădină perfectă ca să aplici principiul plantelor companion. Începe simplu: plantează busuioc lângă roșii și gălbenele la marginea grădinii. Natura face restul.</p>
+      
+      <h3 style="color:#2d6a4f">🌽🫘🎃 Trio-ul celor 3 surori</h3>
+      <p>Cea mai veche asociere cunoscută vine de la nativii americani:</p>
+      <ul>
+        <li><strong style="color:#e76f00">🌽 Porumb</strong> — oferă suport fasolei să urce</li>
+        <li><strong style="color:#4a7c3f">🫘 Fasole</strong> — fixează azotul în sol pentru toate trei</li>
+        <li><strong style="color:#f4a261">🎃 Dovleac</strong> — acoperă pământul, păstrează umezeala și ține buruienile la distanță</li>
+      </ul>
+      
+      <h3 style="color:#2d6a4f">🍅🌿 Roșii și busuioc</h3>
+      <ul>
+        <li><strong style="color:#e63946">🍅 Roșiile</strong> cresc mai sănătoase lângă busuioc</li>
+        <li><strong style="color:#4a7c3f">🌿 Busuiocul</strong> respinge insectele dăunătoare și îmbunătățește gustul roșiilor</li>
+      </ul>
+      
+      <h3 style="color:#2d6a4f">🥕🧅 Morcovi și ceapă</h3>
+      <ul>
+        <li><strong style="color:#e76f00">🥕 Morcovul</strong> respinge musca cepei</li>
+        <li><strong style="color:#a8c5a0">🧅 Ceapa</strong> respinge musca morcovului</li>
+      </ul>
+      <p>Plantate împreună, se protejează reciproc fără niciun pesticid!</p>
+      
+      <h3 style="color:#2d6a4f">🌸 Flori printre legume</h3>
+      <ul>
+        <li><strong style="color:#f4a261">🌼 Gălbenelele</strong> — atrag albinele și țin afidele la distanță</li>
+        <li><strong style="color:#8b5cf6">💜 Lavanda</strong> — respinge dăunătorii și parfumează grădina</li>
+        <li><strong style="color:#4a7c3f">🌿 Menta</strong> — ține departe furnicile și purecii de pământ</li>
+      </ul>
+      
+      <h3 style="color:#2d6a4f">💡 Sfatul nostru</h3>
+      <p>Nu ai nevoie de o grădină perfectă ca să aplici principiul plantelor companion. Începe simplu: plantează <strong style="color:#4a7c3f">🌿 busuioc</strong> lângă <strong style="color:#e63946">🍅 roșii</strong> și <strong style="color:#f4a261">🌼 gălbenele</strong> la marginea grădinii. Natura face restul.</p>
+    
     `
   },
   {
