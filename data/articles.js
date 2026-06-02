@@ -116,14 +116,34 @@ const ARTICLES = [
     image: "images/gradina.jpeg",
     author: "Laura",
     excerpt: "Un an întreg de observat, experimentat și greșit cu grație. Iată cele mai importante lecții pe care ni le-a oferit grădina în primul ei an de viață.",
-    content: `
-      <p>Primul an de permacultură nu seamănă cu nimic din ce citisești. Cărțile îți arată sisteme mature, echilibrate, productive. Realitatea este că începi cu un teren gol, multă incertitudine și câteva semințe de speranță.</p>
-      <h3>Lecția 1: Observă înainte să acționezi</h3>
+   content: `
+      <p>Totul a început cu o problemă simplă: nu aveam ce să mai facem cu iarba uscată, fânul care pe vremuri era hrană pentru animale. În loc să îl ardem sau să îl aruncăm, am început să îl strângem și să îl depozităm.</p>
+      
+      <p>După 2-3 ani de strâns și depozitat, s-a întâmplat ceva minunat — am descoperit un început de pământ fertil. Fânul se transformase încet, încet în compost bogat, plin de viață.</p>
+      
+      <h3>🌱 Experimentul</h3>
+      <p>Am hotărât să facem un experiment. Și așa a luat naștere <strong>grădina-experiment bazată pe permacultură</strong> — o grădină construită din nimic, din ce natura ne oferea deja.</p>
+      
+      <h3>🥕 Ce cultivăm</h3>
+      <p>Încet-încet, grădina noastră a început să producă. Azi cultivăm:</p>
+      <ul>
+        <li>🥔 <strong>Cartofi</strong> — prima mare recoltă</li>
+        <li>🧄 <strong>Usturoi</strong> — plantat toamna, recoltat vara</li>
+        <li>🍅 <strong>Roșii</strong> — cu busuioc companion lângă ele</li>
+        <li>🌿 <strong>Țelină</strong> — răbdătoare și aromată</li>
+        <li>🥒 <strong>Dovlecei</strong> — prolifici și generoși</li>
+        <li>🫛 <strong>Mazăre</strong> — prima legumă a primăverii</li>
+        <li>🌿 <strong>Busuioc</strong> — partenerul fidel al roșiilor</li>
+      </ul>
+      
+      <h3>💡 Lecția 1: Observă înainte să acționezi</h3>
       <p>Prima tentație a fost să plantăm imediat, să construim, să transformăm. Principiile de permacultură spun altceva: observă timp de un an întreg înainte de a face schimbări majore. Unde cade apa? De unde vine vântul? Care zone sunt umbroase vara, însorite toamna?</p>
       <p>Am ascultat parțial. Și chiar și observațiile parțiale ne-au salvat de câteva greșeli mari.</p>
-      <h3>Lecția 2: Solul este totul</h3>
-      <p>Am început să înțelegem că nu cultivăm plante — cultivăm sol. Un sol viu, plin de ciuperci, bacterii, râme, este fundația a tot ce urmează. Am adăugat compost, am mulcit cu paie, am plantat plante fixatoare de azot între rânduri.</p>
-      <h3>Lecția 3: Natura știe mai bine</h3>
+      
+      <h3>🪱 Lecția 2: Solul este totul</h3>
+      <p>Am început să înțelegem că nu cultivăm plante — cultivăm sol. Un sol viu, plin de ciuperci, bacterii, râme, este fundația a tot ce urmează. Fânul depozitat ani la rând ne-a oferit exact asta — un sol viu, gata să hrănească.</p>
+      
+      <h3>🌿 Lecția 3: Natura știe mai bine</h3>
       <p>Câteva plante pe care le-am considerat „buruieni" s-au dovedit a fi exact ce avea nevoie terenul nostru. Pătlagina — indicator de sol compactat, dar și plantă medicinală valoroasă. Urzica — semn de azot în sol, și un superaliment pentru compost.</p>
       <p>Anul doi a început cu mai multă umilință și mai multă curiozitate. Exact ce trebuie.</p>
     `
