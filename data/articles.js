@@ -18,13 +18,22 @@
    ============================================================ */
 
 const ARTICLES = [
+  const ARTICLES = [
+  { ← articolul nou (plante companion)
+    id: "plante-companion",
+    ...
+  },
+  { ← articolul vechi (omida)
+    id: "omida-sfingida-rosii",
+    ...
+  },
   {
     id: "omida-sfingida-rosii",
     title: "Omida sfingidă pe cartofi: prieten sau dușman?",
-    date: "2024-07-15",
+    date: "2026-05-15",
     category: "Viața din grădină",
     tags: ["insecte", "cartofi", "permacultură", "biodiversitate"],
-    image: "images/poza3.jpeg",
+    image: "images/dovleac.jpeg",
     author: "Laura",
     excerpt: "Am descoperit pe plantele de cartofi o creatură impresionantă — omida sfingidă. Mare, verde, cu marcaje fascinante. Ce facem cu ea în grădina de permacultură?",
     content: `
