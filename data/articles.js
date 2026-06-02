@@ -44,7 +44,7 @@ const ARTICLES = [
     date: "2024-06-10",
     category: "Permacultură",
     tags: ["permacultură", "sol viu", "observație", "lecții"],
-    image: "images/poza2.jpeg",
+    image: "gradina.jpg",
     author: "Laura",
     excerpt: "Un an întreg de observat, experimentat și greșit cu grație. Iată cele mai importante lecții pe care ni le-a oferit grădina în primul ei an de viață.",
     content: `
