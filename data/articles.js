@@ -40,7 +40,7 @@ const ARTICLES = [
   },
   {
     id: "primul-an-de-permacultura",
-    title: "Primul an de permacultură: ce am învățat",
+    title: "Primul an de permacultură: ce o sa descoperim",
     date: "2024-06-10",
     category: "Permacultură",
     tags: ["permacultură", "sol viu", "observație", "lecții"],
