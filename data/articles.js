@@ -1,31 +1,32 @@
 /* ============================================================
    GRĂDINA NOASTRĂ — data/articles.js
-   ============================================================
-   Adaugă articole noi la ÎNCEPUTUL array-ului (cel mai nou primul).
-
-   STRUCTURA unui articol:
-   {
-     id:       "slug-unic-fara-diacritice",  ← apare în URL
-     title:    "Titlul articolului",
-     date:     "YYYY-MM-DD",
-     category: "Categoria",                  ← devine filtru automat
-     tags:     ["tag1", "tag2"],
-     image:    "images/poza.jpeg",
-     author:   "Numele autorului",
-     excerpt:  "Rezumat scurt (1-2 propoziții).",
-     content:  `HTML-ul complet al articolului`
-   }
    ============================================================ */
 
 const ARTICLES = [
-  const ARTICLES = [
-  { ← articolul nou (plante companion)
+  {
     id: "plante-companion",
-    ...
-  },
-  { ← articolul vechi (omida)
-    id: "omida-sfingida-rosii",
-    ...
+    title: "Plante companion: cine se înțelege bine în grădină",
+    date: "2026-05-15",
+    category: "Grădinărit",
+    tags: ["plante companion", "biodiversitate", "legume", "permacultură"],
+    image: "images/dovleac.jpeg",
+    author: "Laura",
+    excerpt: "Unele plante se ajută reciproc când cresc împreună. Iată cum folosim asocierile de plante în grădina noastră pentru recolte mai bune și mai puțini dăunători.",
+    content: `
+      <p>Una dintre cele mai frumoase lecții pe care ni le-a oferit grădina este că plantele, la fel ca oamenii, se înțeleg mai bine cu unii vecini decât cu alții.</p>
+      <h3>Ce sunt plantele companion?</h3>
+      <p>Plantele companion sunt plante care, crescând împreună, se ajută reciproc — prin respingerea dăunătorilor, atragerea polenizatorilor, îmbogățirea solului sau oferirea de umbră protectoare.</p>
+      <h3>Trio-ul celor 3 surori</h3>
+      <p>Cea mai veche asociere cunoscută vine de la nativii americani: <strong>porumb, fasole și dovleac</strong>. Porumbul oferă suport fasolei, fasolea fixează azotul în sol pentru toate trei, iar dovleacul acoperă pământul cu frunzele lui mari, păstrând umezeala și ținând buruienile la distanță.</p>
+      <h3>Roșii și busuioc</h3>
+      <p>În grădina noastră, busuiocul crește mereu lângă roșii. Nu doar că respinge insectele dăunătoare, dar mulți grădinari spun că îmbunătățește și gustul roșiilor. Noi credem că e adevărat.</p>
+      <h3>Morcovi și ceapă</h3>
+      <p>O altă asociere clasică: musca morcovului nu suportă mirosul cepei, iar musca cepei fuge de mirosul morcovului. Plantate împreună, se protejează reciproc fără niciun pesticid.</p>
+      <h3>Flori printre legume</h3>
+      <p>Gălbenelele, lavanda și menta sunt prietenii oricărei grădini de legume. Atrag albinele și alte insecte polenizatoare și țin la distanță afidele și alți dăunători. La noi cresc libere printre rânduri — și grădina arată minunat.</p>
+      <h3>Sfatul nostru</h3>
+      <p>Nu ai nevoie de o grădină perfectă ca să aplici principiul plantelor companion. Începe simplu: plantează busuioc lângă roșii și gălbenele la marginea grădinii. Natura face restul.</p>
+    `
   },
   {
     id: "omida-sfingida-rosii",
@@ -49,7 +50,7 @@ const ARTICLES = [
   },
   {
     id: "primul-an-de-permacultura",
-    title: "Primul an de permacultură: ce o sa descoperim",
+    title: "Primul an de permacultură: ce o să descoperim",
     date: "2024-06-10",
     category: "Permacultură",
     tags: ["permacultură", "sol viu", "observație", "lecții"],
@@ -62,7 +63,7 @@ const ARTICLES = [
       <p>Prima tentație a fost să plantăm imediat, să construim, să transformăm. Principiile de permacultură spun altceva: observă timp de un an întreg înainte de a face schimbări majore. Unde cade apa? De unde vine vântul? Care zone sunt umbroase vara, însorite toamna?</p>
       <p>Am ascultat parțial. Și chiar și observațiile parțiale ne-au salvat de câteva greșeli mari.</p>
       <h3>Lecția 2: Solul este totul</h3>
-      <p>Am început să înțelegem că nu cultivăm plante — cultivăm sol. Un sol viu, plin de ciuperci, bacterii, râme, este fundația a tot ce urmează. Am adăugat compost, am mulcit cu paie,am terasat un am plantat plante fixatoare de azot între rânduri.</p>
+      <p>Am început să înțelegem că nu cultivăm plante — cultivăm sol. Un sol viu, plin de ciuperci, bacterii, râme, este fundația a tot ce urmează. Am adăugat compost, am mulcit cu paie, am plantat plante fixatoare de azot între rânduri.</p>
       <h3>Lecția 3: Natura știe mai bine</h3>
       <p>Câteva plante pe care le-am considerat „buruieni" s-au dovedit a fi exact ce avea nevoie terenul nostru. Pătlagina — indicator de sol compactat, dar și plantă medicinală valoroasă. Urzica — semn de azot în sol, și un superaliment pentru compost.</p>
       <p>Anul doi a început cu mai multă umilință și mai multă curiozitate. Exact ce trebuie.</p>
@@ -74,11 +75,10 @@ const ARTICLES = [
     date: "2024-05-20",
     category: "Copii & Natură",
     tags: ["copii", "grădinărit", "activități", "natură"],
-    image: "images/poza1.jpeg",
+    image: "images/copii_in_livada.jpeg",
     author: "Laura",
     excerpt: "Nu e nevoie de o grădină perfectă — e nevoie de răbdare, curiozitate și acceptarea că picioarele vor fi mereu murdare de pământ bun.",
     content: `
-    
       <p>Când am decis să implicăm copiii în grădină, cea mai mare teamă a mea era că nu vor fi interesați, că se vor plictisi, că va trebui să îi conving cu recompense. M-am înșelat complet.</p>
       <h3>Copiii și pământul — o conexiune naturală</h3>
       <p>Există ceva primar în relația unui copil cu pământul. Nu trebuie să îi înveți să atingă, să sape, să miroase. O fac instinctiv. Tot ce trebuie tu să faci este să le dai spațiu și să nu te temi de murdărie.</p>
