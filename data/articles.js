@@ -3,6 +3,42 @@
    ============================================================ */
 
 const ARTICLES = [
+
+  {
+    id: "pregatirea-terenului-rosii",
+    title: "Cum am pregătit terenul pentru roșii",
+    date: "2026-06-02",
+    category: "Grădinărit",
+    tags: ["roșii", "teren", "pregătire", "permacultură"],
+    image: "images/terasa_pregatita_rosii.jpeg",
+    author: "Laura",
+    excerpt: "Înainte să plantezi roșii, terenul trebuie pregătit cu grijă. Iată cum am făcut-o noi, pas cu pas.",
+    content: `
+      <p>Roșiile sunt printre cele mai iubite legume din grădina noastră — dar și printre cele mai pretențioase. Totul începe cu pregătirea terenului.</p>
+      
+      <h3>🌱 De ce contează pregătirea terenului?</h3>
+      <p>Un teren bine pregătit înseamnă rădăcini sănătoase, plante puternice și roșii gustoase. Am învățat asta pe propria piele după primul an când am plantat direct fără să pregătim solul.</p>
+      
+      <h3>🪛 Pașii noștri</h3>
+      <ul>
+        <li><strong>Săpat adânc</strong> — am afânat solul la 30-40 cm adâncime</li>
+        <li><strong>Compost</strong> — am adăugat compost matur pentru nutrienți</li>
+        <li><strong>Mulci de paie</strong> — păstrează umezeala și ține buruienile la distanță</li>
+        <li><strong>Terasare</strong> — am creat rânduri ușor ridicate pentru drenaj</li>
+      </ul>
+      
+      <img src="images/terasa_pregatita_rosii.jpeg" alt="Teren pregătit pentru roșii" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
+      
+      <h3>🍅 Plantatul propriu-zis</h3>
+      <p>Am plantat răsadurile la 50 cm distanță unul de altul, adânc — până la primele frunze. Roșiile adoră să fie plantate adânc pentru că își dezvoltă rădăcini pe tot tulpina îngropată.</p>
+      <p>Lângă fiecare rând am plantat busuioc — partenerul perfect al roșiilor!</p>
+      
+      <img src="images/rosii.jpeg" alt="Roșii plantate" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
+      
+      <h3>💡 Sfatul nostru</h3>
+      <p>Nu te grăbi să plantezi. Un teren pregătit în tihnă face diferența între o recoltă mediocră și una abundentă. Roșiile îți vor mulțumi din plin! 🍅</p>
+    `
+  },
   {
     id: "plante-companion",
     title: "Plante companion: cine se înțelege bine în grădină",
