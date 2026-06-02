@@ -9,7 +9,7 @@ const ARTICLES = [
     date: "2026-06-01",
     category: "Grădinărit",
     tags: ["plante companion", "biodiversitate", "legume", "permacultură"],
-    image: "images/flori.jpeg",
+    image: "images/dovleac.jpeg",
     author: "Laura",
     excerpt: "Unele plante se ajută reciproc când cresc împreună. Iată cum folosim asocierile de plante în grădina noastră pentru recolte mai bune și mai puțini dăunători.",
     content: `
