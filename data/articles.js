@@ -111,7 +111,7 @@ const ARTICLES = [
     id: "primul-an-de-permacultura",
     title: "Primul an de permacultură: ce o să descoperim",
     date: "2024-06-10",
-    category: "Permacultură",
+    category: "Permacultura",
     tags: ["permacultură", "sol viu", "observație", "lecții"],
     image: "images/gradina.jpeg",
     author: "Laura",
