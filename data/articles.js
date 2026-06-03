@@ -240,9 +240,9 @@ const ARTICLES = [
     content: `
       <p>Grădina ne-a învățat să privim în jos — la sol, la plante, la rădăcini. Dar uneori, cea mai mare frumusețe e deasupra noastră.</p>
 
-      <p>Serile de vară aduc la noi un spectacol unic — nori imenși, aprinși de apus, care se ridică deasupra munților ca niște turnuri de lumină.</p>
+      <p>Serile aduc la noi un spectacol unic — nori imenși, aprinși de apus, care se ridică deasupra munților ca niște turnuri de lumină.</p>
 
-      <img src="images/explozie_nori1.jpeg" alt="Nori de vară la apus" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
+      <img src="images/explozie_nori1.jpeg" alt="Nori apus" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
 
       <img src="images/explozie_nori2.jpeg" alt="Apus peste munți" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
 
