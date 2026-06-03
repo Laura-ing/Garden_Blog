@@ -1,7 +1,5 @@
 /* ============================================================
    GRĂDINA NOASTRĂ — blog.js
-   Logică modulară pentru blog.
-   Depinde de: data/articles.js (inclus înaintea acestui fișier)
    ============================================================ */
 
 const MONTHS_RO = [
@@ -16,6 +14,9 @@ function formatDate(dateStr) {
 
 /* ─── CARD ───────────────────────────────────────────────────── */
 function renderCard(article) {
+  const seriesBadge = article.series
+    ? `<span class="blog-card-series">📂 ${article.series}</span>`
+    : '';
   return `
     <article class="blog-card reveal">
       <a href="articol.html?id=${article.id}" class="blog-card-img">
@@ -24,6 +25,7 @@ function renderCard(article) {
       </a>
       <div class="blog-card-body">
         <p class="blog-card-meta">${formatDate(article.date)} · ${article.author}</p>
+        ${seriesBadge}
         <h3 class="blog-card-title">
           <a href="articol.html?id=${article.id}">${article.title}</a>
         </h3>
@@ -33,7 +35,7 @@ function renderCard(article) {
     </article>`;
 }
 
-/* ─── REVEAL pentru elemente adăugate dinamic ───────────────── */
+/* ─── REVEAL ─────────────────────────────────────────────────── */
 function initReveal() {
   const obs = new IntersectionObserver((entries) => {
     entries.forEach(e => {
@@ -50,7 +52,7 @@ function initReveal() {
   });
 }
 
-/* ─── INDEX.HTML — preview 3 articole recente ───────────────── */
+/* ─── INDEX.HTML ─────────────────────────────────────────────── */
 function initHomeBlog() {
   const container = document.getElementById('blog-preview-grid');
   if (!container) return;
@@ -58,16 +60,55 @@ function initHomeBlog() {
   initReveal();
 }
 
-/* ─── BLOG.HTML — lista completă + filtrare pe categorie ────── */
+/* ─── BLOG.HTML ──────────────────────────────────────────────── */
 function initBlogList() {
   const container = document.getElementById('blog-grid');
   const filterBar  = document.getElementById('blog-filter-bar');
   if (!container) return;
 
-  function render(list) {
-    container.innerHTML = list.length
-      ? list.map(renderCard).join('')
-      : '<p class="blog-empty">Niciun articol în această categorie.</p>';
+  function renderGrouped(list) {
+    if (!list.length) {
+      container.innerHTML = '<p class="blog-empty">Niciun articol în această categorie.</p>';
+      return;
+    }
+
+    // Grupează articolele cu series sub un header
+    const groups = [];
+    const seriesSeen = {};
+    const standalone = [];
+
+    list.forEach(article => {
+      if (article.series) {
+        if (!seriesSeen[article.series]) {
+          seriesSeen[article.series] = [];
+          groups.push({ type: 'series', name: article.series, articles: seriesSeen[article.series] });
+        }
+        seriesSeen[article.series].push(article);
+      } else {
+        standalone.push(article);
+      }
+    });
+
+    let html = '';
+
+    // Articole standalone
+    standalone.forEach(a => { html += renderCard(a); });
+
+    // Grupuri cu series
+    groups.forEach(g => {
+      html += `
+        <div class="blog-series-group reveal">
+          <div class="blog-series-header">
+            <span class="blog-series-icon">📂</span>
+            <h2 class="blog-series-title">${g.name}</h2>
+          </div>
+          <div class="blog-series-cards">
+            ${g.articles.map(renderCard).join('')}
+          </div>
+        </div>`;
+    });
+
+    container.innerHTML = html;
     initReveal();
   }
 
@@ -83,14 +124,14 @@ function initBlogList() {
       document.querySelectorAll('.blog-filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       const cat = btn.dataset.cat;
-      render(cat === 'Toate' ? ARTICLES : ARTICLES.filter(a => a.category === cat));
+      renderGrouped(cat === 'Toate' ? ARTICLES : ARTICLES.filter(a => a.category === cat));
     });
   }
 
- render([]);
+  renderGrouped([]);
 }
 
-/* ─── ARTICOL.HTML — articol individual ─────────────────────── */
+/* ─── ARTICOL.HTML ───────────────────────────────────────────── */
 function initArticlePage() {
   const container = document.getElementById('article-container');
   if (!container) return;
@@ -114,6 +155,10 @@ function initArticlePage() {
   const prev = ARTICLES[idx + 1];
   const next = ARTICLES[idx - 1];
 
+  const seriesInfo = article.series
+    ? `<p class="article-series">📂 Din seria: <strong>${article.series}</strong></p>`
+    : '';
+
   container.innerHTML = `
     <div class="article-hero" style="background-image:url('${article.image}')">
       <div class="article-hero-overlay"></div>
@@ -124,6 +169,7 @@ function initArticlePage() {
       </div>
     </div>
     <div class="article-body">
+      ${seriesInfo}
       <div class="article-content">${article.content}</div>
       <div class="article-tags">
         ${article.tags.map(t => `<span class="tag">${t}</span>`).join('')}

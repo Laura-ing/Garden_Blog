@@ -40,6 +40,7 @@ const ARTICLES = [
     tags: ["permacultură", "sol viu", "observație", "lecții"],
     image: "images/gradina.jpeg",
     author: "Laura",
+    series: "Anul 2 de experiment",
     excerpt: "Un an întreg de observat, experimentat și greșit cu grație. Iată cele mai importante lecții pe care ni le-a oferit grădina în primul ei an de viață.",
    content: `
       <p> Cu entuziasm si rabdare am plecat la drum impreuna cu cei 2 baieti in a mesterii solul si a-l transforma in ceva roditor.</p>
