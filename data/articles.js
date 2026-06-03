@@ -227,5 +227,34 @@ const ARTICLES = [
       <p>Dincolo de cunoștințele despre natură, grădina le oferă copiilor ceva mai profund: experiența că efortul duce la rezultate vizibile. Sămânța plantată de ei devine planta care le hrănește familia. Asta nu se predă — se trăiește.</p>
       <p>Și da, pantofii vor fi mereu murdari. Merită din plin.</p>
     `
-  }
+  },
+{
+    id: "in-nori",
+    title: "În nori — cerul de deasupra grădinii noastre",
+    date: "2026-05-27",
+    category: "În nori",
+    tags: ["nori", "apus", "natură", "cer", "peisaj"],
+    image: "images/explozie_nori1.jpeg",
+    author: "Laura",
+    excerpt: "Uneori, cele mai frumoase momente din grădină nu sunt la nivelul solului — ci deasupra lui. Iată cerul nostru, în toată splendoarea lui.",
+    content: `
+      <p>Grădina ne-a învățat să privim în jos — la sol, la plante, la rădăcini. Dar uneori, cea mai mare frumusețe e deasupra noastră.</p>
+
+      <p>Serile de vară aduc la noi un spectacol unic — nori imenși, aprinși de apus, care se ridică deasupra munților ca niște turnuri de lumină.</p>
+
+      <img src="images/explozie_nori1.jpeg" alt="Nori de vară la apus" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
+
+      <img src="images/explozie_nori2.jpeg" alt="Apus peste munți" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
+
+      <img src="images/explozie_nori3.jpeg" alt="Cerul de seară" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
+
+      <h3>🌤️ De ce fotografiem norii?</h3>
+      <p>Pentru că ne amintesc că suntem mici — și asta e un lucru bun. Grădina, pământul, plantele — toate există sub același cer imens care se schimbă în fiecare seară.</p>
+
+      <p>E un privilegiu să trăiești într-un loc unde poți vedea orizontul liber, unde norii au spațiu să se desfășoare și unde apusul nu e blocat de clădiri.</p>
+
+      <h3>📷 Cum fotografiem norii</h3>
+      <p>Fără trucuri — doar telefonul ridicat la momentul potrivit. Natura face toată munca. Noi doar avem norocul să fim acolo. 🌅</p>
+    `
+  },
 ];
