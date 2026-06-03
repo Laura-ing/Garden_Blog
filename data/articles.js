@@ -175,7 +175,37 @@ const ARTICLES = [
       <p>Grădina nu este un sistem steril — este un ecosistem viu, unde fiecare creatură are rolul ei. Uneori, <em>dușmanul</em> pe care îl crezi se dovedește a fi cel mai bun profesor.</p>
     `
   },
-  
+  {
+    id: "ciuperca-din-gradina",
+    title: "Ciuperca din grădină — un semn că solul tău e viu",
+    date: "2026-06-03",
+    category: "Viața din grădină",
+    tags: ["ciuperci", "sol viu", "cartofi", "permacultură", "biodiversitate"],
+    image: "images/ciuperca.jpeg",
+    author: "Laura",
+    excerpt: "Într-o dimineață, printre rândurile de cartofi, am găsit o mică surpriză: o ciupercă albă, delicată, crescută din pământul nostru. Un semn mic, dar cu o poveste mare.",
+    content: `
+      <p>Eram în grădină, controlând rândurile de cartofi, când am văzut-o. Mică, albă, cu pălăria conică și piciorușul subțire — o ciupercă crescută chiar printre plantele noastre de cartofi.</p>
+
+      <p>Primul gând a fost să o scot. Al doilea gând — să mă opresc și să mă gândesc ce înseamnă prezența ei acolo.</p>
+
+      <img src="images/ciuperca.jpeg" alt="Ciupercă crescută printre cartofi" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
+
+      <h3>🍄 Ce fel de ciupercă e?</h3>
+      <p>După formă și culoare, seamănă cu o <em>Lepiota</em> sau <em>Marasmius</em> — ciuperci mici care cresc în sol bogat în materie organică. Nu sunt ciuperci comestibile valoroase, dar prezența lor spune ceva important despre solul din jur.</p>
+
+      <h3>🌱 Ce înseamnă o ciupercă în grădină?</h3>
+      <p>Ciupercile nu cresc oriunde. Ele apar acolo unde există <strong>miceliu activ</strong> — rețeaua invizibilă de fire fungice care trăiește în sol și descompune materia organică în nutrienți disponibili pentru plante.</p>
+      <p>Cu alte cuvinte: dacă ai ciuperci în grădină, solul tău e <strong>viu și sănătos</strong>. E exact ce vrei într-o grădină de permacultură.</p>
+
+      <h3>🤝 Ciupercile și cartofii</h3>
+      <p>Relația dintre ciuperci și plante este una dintre cele mai fascinante din natură. Miceliul fungic ajută rădăcinile cartofilor să absoarbă apă și minerale mai eficient. În schimb, plantele oferă ciupercilor zahăr produs prin fotosinteză. O relație de tip câștig-câștig.</p>
+
+      <h3>💡 Concluzia noastră</h3>
+      <p>Am lăsat ciuperca în pace. E parte din ecosistemul grădinii noastre — un mic indicator că mergem pe drumul cel bun. Fânul depozitat ani la rând, compostul, mulciul de paie — toate au contribuit la crearea unui sol în care viața prosperă în toate formele ei.</p>
+      <p>Chiar și în cele mai mici și neașteptate forme. 🍄</p>
+    `
+  },
   {
     id: "gradina-cu-copiii",
     title: "Cum să faci grădinărit cu copiii mici",
