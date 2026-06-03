@@ -234,7 +234,7 @@ const ARTICLES = [
     date: "2026-05-01",
     category: "Copii & Natură",
     tags: ["copii", "căpșuni", "plantat", "grădină", "1 mai"],
-    image: "images/prima capunsa din grdina noatra.jpeg",
+    image: "images/prima_capunsa_din_grdina_noatra.jpeg",
     author: "Laura",
     excerpt: "De 1 Mai, o fetiță curajoasă a luat sapa în mână și a plantat primii stoloni de căpșuni în grădina noastră. O lecție despre curaj, pământ și răbdare.",
     content: `
