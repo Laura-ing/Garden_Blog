@@ -6,7 +6,7 @@ const ARTICLES = [
 {
     id: "primul-an-experiment-2025",
     title: "Primul an de experiment: cartofi și mazăre",
-    date: "2025-04-01",
+    date: "2025-06-01",
     category: "Permacultura",
     tags: ["cartofi", "mazăre", "experiment", "permacultură", "primul an"],
     image: "images/cartofi.jpeg",
@@ -28,13 +28,13 @@ const ARTICLES = [
       <img src="images/cartofi.jpeg" alt="Cartofi în grădina noastră" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
 
       <h3>🎯 Concluzia primului an</h3>
-      <p>Nu trebuie să începi cu o grădină perfectă. Trebuie să începi. Fiecare greșeală este o lecție, fiecare recoltă mică este o victorie. Primăvara lui 2025 ne-a dat încrederea că mergem pe drumul cel bun.</p>
+      <p>Nu trebuie să începi cu o grădină perfectă. Trebuie doar să începi. Fiecare greșeală este o lecție, fiecare recoltă mică este o victorie. Primăvara lui 2025 ne-a dat încrederea că mergem pe drumul cel bun.</p>
     `
   },
 
 {
-    id: "primul-an-de-permacultura",
-    title: "Primul an de permacultură: ce o să descoperim",
+    id: "Anul 2-de-permacultura",
+    title: "In anul 2 de  permacultură: ce o să descoperim",
     date: "2024-06-10",
     category: "Permacultura",
     tags: ["permacultură", "sol viu", "observație", "lecții"],
@@ -42,15 +42,13 @@ const ARTICLES = [
     author: "Laura",
     excerpt: "Un an întreg de observat, experimentat și greșit cu grație. Iată cele mai importante lecții pe care ni le-a oferit grădina în primul ei an de viață.",
    content: `
-      <p>Totul a început cu o problemă simplă: nu aveam ce să mai facem cu iarba uscată, fânul care pe vremuri era hrană pentru animale. În loc să îl ardem sau să îl aruncăm, am început să îl strângem și să îl depozităm.</p>
+      <p> Cu entuziasm si rabdare am plecat la drum impreuna cu cei 2 baieti in a mesterii solul si a-l transforma in ceva roditor.</p>
       
-      <p>După 2-3 ani de strâns și depozitat, s-a întâmplat ceva minunat — am descoperit un început de pământ fertil. Fânul se transformase încet, încet în compost bogat, plin de viață.</p>
-      
-      <h3>🌱 Experimentul</h3>
-      <p>Am hotărât să facem un experiment. Și așa a luat naștere <strong>grădina-experiment bazată pe permacultură</strong> — o grădină construită din nimic, din ce natura ne oferea deja.</p>
+      <h3>🌱 <strong>Experimentul</strong</h3>
+      <p>Am hotarat sa extindem expoerimentul si sa adaugam mai multe legume in solul devenit fertil datorita ierbii nefolosite .</p>
       
       <h3>🥕 Ce cultivăm</h3>
-      <p>Încet-încet, grădina noastră a început să producă. Azi cultivăm:</p>
+      <p>Încet-încet, grădina noastră începe să producă. Azi cultivăm:</p>
       <ul>
         <li>🥔 <strong>Cartofi</strong> — prima mare recoltă</li>
         <li>🧄 <strong>Usturoi</strong> — plantat toamna, recoltat vara</li>
