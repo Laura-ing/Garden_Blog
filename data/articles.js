@@ -228,6 +228,35 @@ const ARTICLES = [
       <p>Și da, pantofii vor fi mereu murdari. Merită din plin.</p>
     `
   },
+  {
+    id: "fetita-sapa-capsuni",
+    title: "Micuța grădinărită — cum am plantat primii stoloni de căpșuni",
+    date: "2026-05-01",
+    category: "Copii & Natură",
+    tags: ["copii", "căpșuni", "plantat", "grădină", "1 mai"],
+    image: "images/capsuna_rosie_telina.jpeg",
+    author: "Laura",
+    excerpt: "De 1 Mai, o fetiță curajoasă a luat sapa în mână și a plantat primii stoloni de căpșuni în grădina noastră. O lecție despre curaj, pământ și răbdare.",
+    content: `
+      <p>De 1 Mai 2026, grădina noastră a avut un oaspete special — verișoara băieților, o fetiță plină de curaj și entuziasm care a decis că vrea să planteze căpșuni.</p>
+
+      <p>Nu a stat pe gânduri. A luat sapa și a început să sape — hotărâtă, serioasă, concentrată. Ca un adevărat grădinar. 🌱</p>
+
+      <div style="text-align:center; margin:1.5rem 0;">
+        <img src="images/sapat.gif" alt="Fetița sapă în grădină" style="width:100%; border-radius:12px;" />
+      </div>
+
+      <h3>🍓 Primii stoloni de căpșuni</h3>
+      <p>Am plantat împreună 2 stoloni de căpșuni — mici, fragili, dar plini de promisiuni. Fiecare a intrat în pământ cu grijă, acoperit cu drag.</p>
+
+      <img src="images/capsuna_rosie_telina.jpeg" alt="Căpșuni plantate" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
+
+      <h3>💡 Ce am învățat în acea zi</h3>
+      <p>Copiii nu au nevoie de instrucțiuni complicate. Au nevoie de un colț de pământ, o sapă și permisiunea de a face lucrurile singuri. Restul vine natural.</p>
+
+      <p>Abia așteptăm prima recoltă de căpșuni — să știm că au crescut din munca unor mâini mici și pline de entuziasm. 🍓</p>
+    `
+  },
 {
     id: "in-nori",
     title: "În nori — cerul de deasupra grădinii noastre",
