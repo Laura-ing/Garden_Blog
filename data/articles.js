@@ -4,6 +4,35 @@
 
 const ARTICLES = [
 {
+    id: "primul-an-experiment-2025",
+    title: "Primul an de experiment: cartofi și mazăre",
+    date: "2025-04-01",
+    category: "Permacultura",
+    tags: ["cartofi", "mazăre", "experiment", "permacultură", "primul an"],
+    image: "images/cartofi.jpeg",
+    author: "Laura",
+    excerpt: "Primăvara lui 2025 a fost prima noastră recoltă reală — doar cartofi și mazăre, dar o lecție imensă despre răbdare și natură.",
+    content: `
+      <p>Totul a început cu o problemă simplă: nu aveam ce să mai facem cu iarba uscată, fânul care pe vremuri era hrană pentru animale. În loc să îl ardem sau să îl aruncăm, am început să îl strângem și să îl depozităm.</p>
+
+      <p>După 2-3 ani de strâns și depozitat, s-a întâmplat ceva minunat — am descoperit un început de pământ fertil. Fânul se transformase încet, încet în compost bogat, plin de viață.</p>
+
+      <p>Am hotărât să facem un experiment. Și așa a luat naștere <strong>grădina-experiment bazată pe permacultură</strong> — o grădină construită din nimic, din ce natura ne oferea deja.</p>
+
+      <h3>🥔 De ce doar cartofi și mazăre?</h3>
+      <p>În primăvara lui 2025 am decis să începem simplu. Nu voiam să ne complicăm — voiam să vedem ce se întâmplă. Cartofii și mazărea au fost alegerea perfectă: rezistente, ușor de plantat și ideale pentru un sol nou, proaspăt format.</p>
+
+      <h3>🌱 Ce am învățat</h3>
+      <p>Primul an de experiență ne-a arătat că natura are răbdare dacă și tu ai răbdare. Solul format din fân depozitat ani la rând a hrănit plantele fără îngrășăminte chimice, fără irigații complicate — doar apă de ploaie și soare.</p>
+
+      <img src="images/cartofi.jpeg" alt="Cartofi în grădina noastră" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
+
+      <h3>🎯 Concluzia primului an</h3>
+      <p>Nu trebuie să începi cu o grădină perfectă. Trebuie să începi. Fiecare greșeală este o lecție, fiecare recoltă mică este o victorie. Primăvara lui 2025 ne-a dat încrederea că mergem pe drumul cel bun.</p>
+    `
+  },
+
+{
     id: "primul-an-de-permacultura",
     title: "Primul an de permacultură: ce o să descoperim",
     date: "2024-06-10",
