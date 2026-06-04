@@ -159,6 +159,7 @@ const ARTICLES = [
     tags: ["ciuperci", "sol viu", "cartofi", "permacultură", "biodiversitate"],
     image: "images/ciuperca.jpeg",
     author: "Laura",
+    heroPosition: "center bottom",
     excerpt: "Într-o dimineață, printre rândurile de cartofi, am găsit o mică surpriză: o ciupercă albă, delicată, crescută din pământul nostru. Un semn mic, dar cu o poveste mare.",
     content: `
       <p>Eram în grădină, controlând rândurile de cartofi, când am văzut-o. Mică, albă, cu pălăria conică și piciorușul subțire — o ciupercă crescută chiar printre plantele noastre de cartofi.</p>
