@@ -484,8 +484,9 @@ footer {
 
 /* ─── ARTICLE PAGE ───────────────────────────────────────────── */
 @keyframes articleHeroIn {
-  from { opacity: 0; transform: scale(1.35); }
-  to   { opacity: 1; transform: scale(1); }
+  from { transform: scale(1.08); opacity: 0.7; }
+  to   { transform: scale(1); opacity: 1; }
+}
 }
 @keyframes articleHeroContentIn {
   from { opacity: 0; transform: translateY(18px); }
@@ -520,6 +521,13 @@ footer {
 
 .article-body { max-width: 760px; margin: 0 auto; padding: 3.5rem 5vw 5rem; }
 .article-content { font-size: 1.05rem; font-weight: 400; line-height: 1.95; color: var(--text); }
+.article-content img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  margin: 1.5rem 0;
+}
 .article-content h3 {
   font-family: var(--font-display); font-size: 1.6rem; font-weight: 600;
   color: var(--green-1); margin: 2.2rem 0 0.8rem;
