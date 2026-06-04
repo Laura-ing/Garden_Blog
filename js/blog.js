@@ -118,7 +118,7 @@ function initArticlePage() {
     </div>`;
 
   container.innerHTML = `
-      <div class="article-hero" style="background-image:url('${article.image}'); background-position: center bottom; background-size: cover; background-repeat: no-repeat;">
+      <div class="article-hero" style="background-image:url('${article.image}'); background-position: ${article.heroPosition || 'center center'}; background-size: cover; background-repeat: no-repeat;">
       <div class="article-hero-overlay"></div>
       <div class="article-hero-content">
         <p class="section-label">${article.category}</p>
