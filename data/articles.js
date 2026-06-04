@@ -1,5 +1,9 @@
 /* ============================================================
    GRĂDINA NOASTRĂ — data/articles.js
+<<<<<<< HEAD
+=======
+   Adaugă articole noi la ÎNCEPUTUL array-ului (cel mai nou primul).
+>>>>>>> b158732dbe07639018e20c816a325d6917729927
    ============================================================ */
 
 const ARTICLES = [
@@ -44,10 +48,17 @@ const ARTICLES = [
     excerpt: "Un an întreg de observat, experimentat și greșit cu grație. Iată cele mai importante lecții pe care ni le-a oferit grădina în primul ei an de viață.",
    content: `
       <p> Cu entuziasm si rabdare am plecat la drum impreuna cu cei 2 baieti in a mesterii solul si a-l transforma in ceva roditor.</p>
+<<<<<<< HEAD
       
       <h3>🌱 <strong>Experimentul</strong</h3>
       <p>Am hotarat sa extindem expoerimentul si sa adaugam mai multe legume in solul devenit fertil datorita ierbii nefolosite .</p>
       
+=======
+
+      <h3>🌱 <strong>Experimentul</strong</h3>
+      <p>Am hotarat sa extindem expoerimentul si sa adaugam mai multe legume in solul devenit fertil datorita ierbii nefolosite .</p>
+
+>>>>>>> b158732dbe07639018e20c816a325d6917729927
       <h3>🥕 Ce cultivăm</h3>
       <p>Încet-încet, grădina noastră începe să producă. Azi cultivăm:</p>
       <ul>
@@ -59,6 +70,7 @@ const ARTICLES = [
         <li>🫛 <strong>Mazăre</strong> — prima legumă a primăverii</li>
         <li>🌿 <strong>Busuioc</strong> — partenerul fidel al roșiilor</li>
       </ul>
+<<<<<<< HEAD
       
       <h3>💡 Lecția 1: Observă înainte să acționezi</h3>
       <p>Prima tentație a fost să plantăm imediat, să construim, să transformăm. Principiile de permacultură spun altceva: observă timp de un an întreg înainte de a face schimbări majore. Unde cade apa? De unde vine vântul? Care zone sunt umbroase vara, însorite toamna?</p>
@@ -67,6 +79,16 @@ const ARTICLES = [
       <h3>🪱 Lecția 2: Solul este totul</h3>
       <p>Am început să înțelegem că nu cultivăm plante — cultivăm sol. Un sol viu, plin de ciuperci, bacterii, râme, este fundația a tot ce urmează. Fânul depozitat ani la rând ne-a oferit exact asta — un sol viu, gata să hrănească.</p>
       
+=======
+
+      <h3>💡 Lecția 1: Observă înainte să acționezi</h3>
+      <p>Prima tentație a fost să plantăm imediat, să construim, să transformăm. Principiile de permacultură spun altceva: observă timp de un an întreg înainte de a face schimbări majore. Unde cade apa? De unde vine vântul? Care zone sunt umbroase vara, însorite toamna?</p>
+      <p>Am ascultat parțial. Și chiar și observațiile parțiale ne-au salvat de câteva greșeli mari.</p>
+
+      <h3>🪱 Lecția 2: Solul este totul</h3>
+      <p>Am început să înțelegem că nu cultivăm plante — cultivăm sol. Un sol viu, plin de ciuperci, bacterii, râme, este fundația a tot ce urmează. Fânul depozitat ani la rând ne-a oferit exact asta — un sol viu, gata să hrănească.</p>
+
+>>>>>>> b158732dbe07639018e20c816a325d6917729927
       <h3>🌿 Lecția 3: Natura știe mai bine</h3>
       <p>Câteva plante pe care le-am considerat „buruieni" s-au dovedit a fi exact ce avea nevoie terenul nostru. Pătlagina — indicator de sol compactat, dar și plantă medicinală valoroasă. Urzica — semn de azot în sol, și un superaliment pentru compost.</p>
       <p>Anul doi a început cu mai multă umilință și mai multă curiozitate. Exact ce trebuie.</p>
@@ -83,10 +105,17 @@ const ARTICLES = [
     excerpt: "Înainte să plantezi roșii, terenul trebuie pregătit cu grijă. Iată cum am făcut-o noi, pas cu pas.",
     content: `
       <p>Roșiile sunt printre cele mai iubite legume din grădina noastră — dar și printre cele mai pretențioase. Totul începe cu pregătirea terenului.</p>
+<<<<<<< HEAD
       
       <h3>🌱 De ce contează pregătirea terenului?</h3>
       <p>Un teren bine pregătit înseamnă rădăcini sănătoase, plante puternice și roșii gustoase. Am învățat asta pe propria piele după primul an când am plantat direct fără să pregătim solul.</p>
       
+=======
+
+      <h3>🌱 De ce contează pregătirea terenului?</h3>
+      <p>Un teren bine pregătit înseamnă rădăcini sănătoase, plante puternice și roșii gustoase. Am învățat asta pe propria piele după primul an când am plantat direct fără să pregătim solul.</p>
+
+>>>>>>> b158732dbe07639018e20c816a325d6917729927
       <h3>🪛 Pașii noștri</h3>
       <ul>
         <li><strong>Săpat adânc</strong> — am afânat solul la 30-40 cm adâncime</li>
@@ -94,6 +123,7 @@ const ARTICLES = [
         <li><strong>Mulci de paie</strong> — păstrează umezeala și ține buruienile la distanță</li>
         <li><strong>Terasare</strong> — am creat rânduri ușor ridicate pentru drenaj</li>
       </ul>
+<<<<<<< HEAD
       
       <img src="images/terasa_pregatita_rosii.jpeg" alt="Teren pregătit pentru roșii" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
       
@@ -103,6 +133,17 @@ const ARTICLES = [
       
       <img src="images/rosii.jpeg" alt="Roșii plantate" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
       
+=======
+
+      <img src="images/terasa_pregatita_rosii.jpeg" alt="Teren pregătit pentru roșii" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
+
+      <h3>🍅 Plantatul propriu-zis</h3>
+      <p>Am plantat răsadurile la 50 cm distanță unul de altul, adânc — până la primele frunze. Roșiile adoră să fie plantate adânc pentru că își dezvoltă rădăcini pe tot tulpina îngropată.</p>
+      <p>Lângă fiecare rând am plantat busuioc — partenerul perfect al roșiilor!</p>
+
+      <img src="images/rosii.jpeg" alt="Roșii plantate" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
+
+>>>>>>> b158732dbe07639018e20c816a325d6917729927
       <h3>💡 Sfatul nostru</h3>
       <p>Nu te grăbi să plantezi. Un teren pregătit în tihnă face diferența între o recoltă mediocră și una abundentă. Roșiile îți vor mulțumi din plin! 🍅</p>
     `
@@ -118,10 +159,17 @@ const ARTICLES = [
     excerpt: "Unele plante se ajută reciproc când cresc împreună. Iată cum folosim asocierile de plante în grădina noastră pentru recolte mai bune și mai puțini dăunători.",
     content: `
       <p>Una dintre cele mai frumoase lecții pe care ni le-a oferit grădina este că plantele, la fel ca oamenii, se înțeleg mai bine cu unii vecini decât cu alții.</p>
+<<<<<<< HEAD
       
       <h3 style="color:#2d6a4f">🌿 Ce sunt plantele companion?</h3>
       <p>Plantele companion sunt plante care, crescând împreună, se ajută reciproc — prin respingerea dăunătorilor, atragerea polenizatorilor, îmbogățirea solului sau oferirea de umbră protectoare.</p>
       
+=======
+
+      <h3 style="color:#2d6a4f">🌿 Ce sunt plantele companion?</h3>
+      <p>Plantele companion sunt plante care, crescând împreună, se ajută reciproc — prin respingerea dăunătorilor, atragerea polenizatorilor, îmbogățirea solului sau oferirea de umbră protectoare.</p>
+
+>>>>>>> b158732dbe07639018e20c816a325d6917729927
       <h3 style="color:#2d6a4f">🌽🫘🎃 Trio-ul celor 3 surori</h3>
       <p>Cea mai veche asociere cunoscută vine de la nativii americani:</p>
       <ul>
@@ -129,30 +177,49 @@ const ARTICLES = [
         <li><strong style="color:#4a7c3f">🫘 Fasole</strong> — fixează azotul în sol pentru toate trei</li>
         <li><strong style="color:#f4a261">🎃 Dovleac</strong> — acoperă pământul, păstrează umezeala și ține buruienile la distanță</li>
       </ul>
+<<<<<<< HEAD
       
+=======
+
+>>>>>>> b158732dbe07639018e20c816a325d6917729927
       <h3 style="color:#2d6a4f">🍅🌿 Roșii și busuioc</h3>
       <ul>
         <li><strong style="color:#e63946">🍅 Roșiile</strong> cresc mai sănătoase lângă busuioc</li>
         <li><strong style="color:#4a7c3f">🌿 Busuiocul</strong> respinge insectele dăunătoare și îmbunătățește gustul roșiilor</li>
       </ul>
+<<<<<<< HEAD
       
+=======
+
+>>>>>>> b158732dbe07639018e20c816a325d6917729927
       <h3 style="color:#2d6a4f">🥕🧅 Morcovi și ceapă</h3>
       <ul>
         <li><strong style="color:#e76f00">🥕 Morcovul</strong> respinge musca cepei</li>
         <li><strong style="color:#a8c5a0">🧅 Ceapa</strong> respinge musca morcovului</li>
       </ul>
       <p>Plantate împreună, se protejează reciproc fără niciun pesticid!</p>
+<<<<<<< HEAD
       
+=======
+
+>>>>>>> b158732dbe07639018e20c816a325d6917729927
       <h3 style="color:#2d6a4f">🌸 Flori printre legume</h3>
       <ul>
         <li><strong style="color:#f4a261">🌼 Gălbenelele</strong> — atrag albinele și țin afidele la distanță</li>
         <li><strong style="color:#8b5cf6">💜 Lavanda</strong> — respinge dăunătorii și parfumează grădina</li>
         <li><strong style="color:#4a7c3f">🌿 Menta</strong> — ține departe furnicile și purecii de pământ</li>
       </ul>
+<<<<<<< HEAD
       
       <h3 style="color:#2d6a4f">💡 Sfatul nostru</h3>
       <p>Nu ai nevoie de o grădină perfectă ca să aplici principiul plantelor companion. Începe simplu: plantează <strong style="color:#4a7c3f">🌿 busuioc</strong> lângă <strong style="color:#e63946">🍅 roșii</strong> și <strong style="color:#f4a261">🌼 gălbenele</strong> la marginea grădinii. Natura face restul.</p>
     
+=======
+
+      <h3 style="color:#2d6a4f">💡 Sfatul nostru</h3>
+      <p>Nu ai nevoie de o grădină perfectă ca să aplici principiul plantelor companion. Începe simplu: plantează <strong style="color:#4a7c3f">🌿 busuioc</strong> lângă <strong style="color:#e63946">🍅 roșii</strong> și <strong style="color:#f4a261">🌼 gălbenele</strong> la marginea grădinii. Natura face restul.</p>
+
+>>>>>>> b158732dbe07639018e20c816a325d6917729927
     `
   },
   {

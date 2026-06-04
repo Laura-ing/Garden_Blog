@@ -1,7 +1,5 @@
 /* ============================================================
    GRĂDINA NOASTRĂ — main.js
-   Funcționalitate de bază: hero, nav, lightbox, form, scroll.
-   Extins de blog.js pentru funcționalitatea de blog.
    ============================================================ */
 
 /* ─── HERO LOAD ANIMATION ────────────────────────────────────── */
@@ -15,7 +13,9 @@ window.addEventListener('load', () => {
 /* ─── NAV: SCROLL SHADOW ─────────────────────────────────────── */
 window.addEventListener('scroll', () => {
   const nav = document.getElementById('nav');
-  if (nav) nav.classList.toggle('scrolled', window.scrollY > 30);
+  if (nav) {
+    nav.classList.toggle('scrolled', window.scrollY > 30);
+  }
 });
 
 /* ─── MOBILE MENU ────────────────────────────────────────────── */
@@ -26,11 +26,11 @@ function toggleMenu() {
   if (menu)   menu.classList.toggle('open');
 }
 
+// Close mobile menu when clicking outside
 document.addEventListener('click', (e) => {
   const toggle = document.getElementById('navToggle');
   const menu   = document.getElementById('mobileMenu');
-  if (!menu || !toggle) return;
-  if (menu.classList.contains('open')) {
+  if (menu && menu.classList.contains('open')) {
     if (!menu.contains(e.target) && !toggle.contains(e.target)) {
       menu.classList.remove('open');
       toggle.classList.remove('open');
@@ -39,9 +39,8 @@ document.addEventListener('click', (e) => {
 });
 
 /* ─── REVEAL ON SCROLL ───────────────────────────────────────── */
-/* Observă elementele statice din DOM la încărcare.
-   Elementele adăugate dinamic (carduri blog) sunt observate
-   de initReveal() din blog.js. */
+const revealEls = document.querySelectorAll('.reveal');
+
 const revealObserver = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
@@ -54,7 +53,7 @@ const revealObserver = new IntersectionObserver(
   { threshold: 0.12 }
 );
 
-document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
+revealEls.forEach((el) => revealObserver.observe(el));
 
 /* ─── LIGHTBOX ───────────────────────────────────────────────── */
 function openLightbox(src) {
@@ -72,6 +71,7 @@ function closeLightbox() {
   if (lb) {
     lb.classList.remove('open');
     document.body.style.overflow = '';
+    // Clear src after transition to avoid flicker on reopen
     setTimeout(() => {
       const img = document.getElementById('lbImg');
       if (img && !lb.classList.contains('open')) img.src = '';
@@ -79,6 +79,7 @@ function closeLightbox() {
   }
 }
 
+// Close on Escape key
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') closeLightbox();
 });
@@ -86,25 +87,28 @@ document.addEventListener('keydown', (e) => {
 /* ─── CONTACT FORM ───────────────────────────────────────────── */
 function handleSubmit(e) {
   e.preventDefault();
+
   const successMsg = document.getElementById('successMsg');
   const form       = e.target;
+
+  // Show success message
   if (successMsg) {
     successMsg.classList.add('show');
     form.reset();
-    setTimeout(() => successMsg.classList.remove('show'), 5000);
+
+    // Auto-hide after 5 seconds
+    setTimeout(() => {
+      successMsg.classList.remove('show');
+    }, 5000);
   }
 }
 
-/* ─── SMOOTH SCROLL (doar pentru link-uri cu ancoră pură #id) ── */
+/* ─── SMOOTH SCROLL FOR NAV LINKS ────────────────────────────── */
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener('click', (e) => {
     const target = document.querySelector(anchor.getAttribute('href'));
     if (target) {
       e.preventDefault();
-      const menu   = document.getElementById('mobileMenu');
-      const toggle = document.getElementById('navToggle');
-      if (menu)   menu.classList.remove('open');
-      if (toggle) toggle.classList.remove('open');
       target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   });
