@@ -138,7 +138,7 @@ const ARTICLES = [
     date: "2026-05-15",
     category: "Viața din grădină",
     tags: ["insecte", "cartofi", "permacultură", "biodiversitate"],
-    image: "images/poza3.jpeg",
+    image: "images/omida.jpeg",
     author: "Laura",
     excerpt: "Am descoperit pe plantele de cartofi o creatură impresionantă — omida sfingidă. Mare, verde, cu marcaje fascinante. Ce facem cu ea în grădina de permacultură?",
     content: `
@@ -212,7 +212,7 @@ const ARTICLES = [
       </div>
       <h3>🍓 Primii stoloni de căpșuni</h3>
       <p>Am plantat împreună 2 stoloni de căpșuni — mici, fragili, dar plini de promisiuni. Fiecare a intrat în pământ cu grijă, acoperit cu drag.</p>
-      <img src="images/capsuna_rosie_telina.jpeg" alt="Căpșuni plantate" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
+      <img src="images/capsuna.jpeg" alt="Căpșuni plantate" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
       <h3>💡 Ce am învățat în acea zi</h3>
       <p>Copiii nu au nevoie de instrucțiuni complicate. Au nevoie de un colț de pământ, o sapă și permisiunea de a face lucrurile singuri. Restul vine natural. 🍓</p>
     `
