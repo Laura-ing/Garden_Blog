@@ -581,3 +581,8 @@ footer {
   .article-hero         { height: 55vh; }
   .blog-preview-head    { flex-direction: column; align-items: flex-start; }
 }
+
+/* ─── DESPRE PAGE ────────────────────────────────────────────── */
+body.despre-page {
+  background: var(--beige);
+}
