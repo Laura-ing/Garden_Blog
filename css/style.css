@@ -586,3 +586,14 @@ footer {
 body.despre-page {
   background: var(--beige);
 }
+
+/* ─── TYPEWRITER ─────────────────────────────────────────────── */
+.hero-text {
+  overflow: hidden;
+  white-space: normal;
+  animation: fadeInLetters 4s ease-in-out both;
+}
+@keyframes fadeInLetters {
+  from { opacity: 0; letter-spacing: 0.3em; }
+  to   { opacity: 1; letter-spacing: normal; }
+}
