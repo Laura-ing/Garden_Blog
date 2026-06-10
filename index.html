@@ -277,21 +277,4 @@
   <script>initHomeBlog();</script>
 
 </body>
-<script>
-function typeWriter(elementId, text, speed) {
-  const el = document.getElementById(elementId);
-  el.textContent = '';
-  let i = 0;
-  function type() {
-    if (i < text.length) {
-      el.textContent += text.charAt(i);
-      i++;
-      setTimeout(type, speed);
-    }
-  }
-  setTimeout(type, 800);
-}
-
-typeWriter('hero-text', 'Există un loc unde timpul se mișcă altfel — unde mâinile ating pământul, iar mintea se eliberează de lumea digitală și zgomotul zilei. Grădina noastră este acel loc: un refugiu viu, care ne ancorează în realitate și ne amintește cine suntem cu adevărat.', 35);
-</script>
 </html>
