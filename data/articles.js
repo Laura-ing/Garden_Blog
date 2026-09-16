@@ -4,93 +4,42 @@
    ============================================================ */
 
 const ARTICLES = [
-{
-    id: "primul-an-experiment-2025",
-    title: "Primul an de experiment: cartofi și mazăre",
-    date: "2025-06-01",
-    category: "Permacultura",
-    tags: ["cartofi", "mazăre", "experiment", "permacultură", "primul an"],
-    image: "images/cartofi.jpeg",
-    author: "Laura",
-    excerpt: "Primăvara lui 2025 a fost prima noastră recoltă reală — doar cartofi și mazăre, dar o lecție imensă despre răbdare și natură.",
-    content: `
-      <p>Totul a început cu o problemă simplă: nu aveam ce să mai facem cu iarba uscată, fânul care pe vremuri era hrană pentru animale. În loc să îl ardem sau să îl aruncăm, am început să îl strângem și să îl depozităm.</p>
-      <p>După 2-3 ani de strâns și depozitat, s-a întâmplat ceva minunat — am descoperit un început de pământ fertil. Fânul se transformase încet, încet în compost bogat, plin de viață.</p>
-      <p>Am hotărât să facem un experiment. Și așa a luat naștere <strong>grădina-experiment bazată pe permacultură</strong> — o grădină construită din nimic, din ce natura ne oferea deja.</p>
-      <h3>🥔 De ce doar cartofi și mazăre?</h3>
-      <p>În primăvara lui 2025 am decis să începem simplu. Nu voiam să ne complicăm — voiam să vedem ce se întâmplă. Cartofii și mazărea au fost alegerea perfectă: rezistente, ușor de plantat și ideale pentru un sol nou, proaspăt format.</p>
-      <h3>🌱 Ce am învățat</h3>
-      <p>Primul an de experiență ne-a arătat că natura are răbdare dacă și tu ai răbdare. Solul format din fân depozitat ani la rând a hrănit plantele fără îngrășăminte chimice, fără irigații complicate — doar apă de ploaie și soare.</p>
-      <img src="images/cartofi.jpeg" alt="Cartofi în grădina noastră" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
-      <h3>🎯 Concluzia primului an</h3>
-      <p>Nu trebuie să începi cu o grădină perfectă. Trebuie doar să începi. Fiecare greșeală este o lecție, fiecare recoltă mică este o victorie. Primăvara lui 2025 ne-a dat încrederea că mergem pe drumul cel bun.</p>
-    `
-  },
+
   {
-    id: "Anul 2-de-permacultura",
-    title: "In anul 2 de permacultură: ce o să descoperim",
-    date: "2024-06-10",
+    id: "An-de-experiment",
+    title: "In acest an de permacultură: ce o să descoperim",
+    date: "2026-09-06",
     category: "Permacultura",
-    tags: ["permacultură", "sol viu", "observație", "lecții"],
+    tags: ["permacultură", "sol viu", "observație", "lecții", "recoltă"],
     image: "images/gradina.jpeg",
     author: "Laura",
     series: "Anul 2 de experiment",
-    excerpt: "Un an întreg de observat, experimentat și greșit cu grație. Iată cele mai importante lecții pe care ni le-a oferit grădina în primul ei an de viață.",
+    excerpt: "Un an întreg, de la sădit la recoltă: ce am semănat, cum a crescut și ce ne-a dat înapoi grădina — fără sapă, fără muncă multă.",
     content: `
-      <p>Cu entuziasm si rabdare am plecat la drum impreuna cu cei 2 baieti in a mesterii solul si a-l transforma in ceva roditor.</p>
-      <h3>🌱 Experimentul</h3>
-      <p>Am hotarat sa extindem experimentul si sa adaugam mai multe legume in solul devenit fertil datorita ierbii nefolosite.</p>
-      <h3>🥕 Ce cultivăm</h3>
-      <p>Încet-încet, grădina noastră începe să producă. Azi cultivăm:</p>
+      <p>Am pornit cu cei doi băieței lângă mine și un petic de pământ pe care voiam doar să-l încercăm.</p>
+
+      <h3>🌱 Semănat</h3>
+      <p>Am extins puțin față de primul an. Solul, hrănit ani la rând din fân depozitat, era gata pentru mai mult. Am pus:</p>
       <ul>
-        <li>🥔 <strong>Cartofi</strong> — prima mare recoltă</li>
-        <li>🧄 <strong>Usturoi</strong> — plantat toamna, recoltat vara</li>
-        <li>🍅 <strong>Roșii</strong> — cu busuioc companion lângă ele</li>
-        <li>🌿 <strong>Țelină</strong> — răbdătoare și aromată</li>
-        <li>🥒 <strong>Dovlecei</strong> — prolifici și generoși</li>
-        <li>🫛 <strong>Mazăre</strong> — prima legumă a primăverii</li>
-        <li>🌿 <strong>Busuioc</strong> — partenerul fidel al roșiilor</li>
+        <li>🥔 <strong>Cartofi</strong></li>
+        <li>🧄 <strong>Usturoi</strong></li>
+        <li>🍅 <strong>Roșii</strong>, cu busuioc alături</li>
+        <li>🌿 <strong>Țelină</strong></li>
+        <li>🥒 <strong>Dovlecei</strong></li>
+        <li>🫛 <strong>Mazăre</strong></li>
       </ul>
-      <h3>💡 Lecția 1: Observă înainte să acționezi</h3>
-      <p>Prima tentație a fost să plantăm imediat, să construim, să transformăm. Principiile de permacultură spun altceva: observă timp de un an întreg înainte de a face schimbări majore.</p>
-      <p>Am ascultat parțial. Și chiar și observațiile parțiale ne-au salvat de câteva greșeli mari.</p>
-      <h3>🪱 Lecția 2: Solul este totul</h3>
-      <p>Am început să înțelegem că nu cultivăm plante — cultivăm sol. Un sol viu, plin de ciuperci, bacterii, râme, este fundația a tot ce urmează.</p>
-      <h3>🌿 Lecția 3: Natura știe mai bine</h3>
-      <p>Câteva plante pe care le-am considerat buruieni s-au dovedit a fi exact ce avea nevoie terenul nostru. Pătlagina — indicator de sol compactat, dar și plantă medicinală valoroasă. Urzica — semn de azot în sol.</p>
-      <p>Anul doi a început cu mai multă umilință și mai multă curiozitate. Exact ce trebuie.</p>
+
+      <h3>🌿 Crescut</h3>
+      <p>Am vrut să intervenim cât mai puțin. Am privit mai mult decât am făcut — și tot ce părea buruiană avea, de fapt, un rost: pătlagina ne spunea că solul e bătătorit pe alocuri, urzica ne spunea unde e azot din belșug.</p>
+      <p>Cea mai mare lecție a fost simplă: solul contează mai mult decât planta.</p>
+
+      <h3>🍂 Recoltă</h3>
+      <p>Toamna a venit cu dovlecei cât brațul, ardei iuți în ciorchine, roșii coapte lângă gălbenele si cateva găleți de cartofi. Fără sapă, fără îngrășăminte — doar timp.</p>
+      <img src="images/dovlecei.jpeg" alt="Dovlecei din grădină" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
+      <p>Cel mai frumos lucru n-a fost recolta, ci băieții care treceau singuri pe la mazărea și căpșunile lor, să vadă ce-a mai crescut.</p>
     `
   },
-  {
-    id: "pregatirea-terenului-rosii",
-    title: "Cum am pregătit terenul pentru roșii",
-    date: "2026-06-02",
-    category: "Permacultura",
-    series: "Anul 2 de experiment",
-    tags: ["roșii", "teren", "pregătire", "permacultură"],
-    image: "images/terasa_pregatita_rosii.jpeg",
-    author: "Laura",
-    excerpt: "Înainte să plantezi roșii, terenul trebuie pregătit cu grijă. Iată cum am făcut-o noi, pas cu pas.",
-    content: `
-      <p>Roșiile sunt printre cele mai iubite legume din grădina noastră — dar și printre cele mai pretențioase. Totul începe cu pregătirea terenului.</p>
-      <h3>🌱 De ce contează pregătirea terenului?</h3>
-      <p>Un teren bine pregătit înseamnă rădăcini sănătoase, plante puternice și roșii gustoase.</p>
-      <h3>🪛 Pașii noștri</h3>
-      <ul>
-        <li><strong>Săpat adânc</strong> — am afânat solul la 30-40 cm adâncime</li>
-        <li><strong>Compost</strong> — am adăugat compost matur pentru nutrienți</li>
-        <li><strong>Mulci de paie</strong> — păstrează umezeala și ține buruienile la distanță</li>
-        <li><strong>Terasare</strong> — am creat rânduri ușor ridicate pentru drenaj</li>
-      </ul>
-      <img src="images/terasa_pregatita_rosii.jpeg" alt="Teren pregătit pentru roșii" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
-      <h3>🍅 Plantatul propriu-zis</h3>
-      <p>Am plantat răsadurile la 50 cm distanță unul de altul, adânc — până la primele frunze. Roșiile adoră să fie plantate adânc.</p>
-      <p>Lângă fiecare rând am plantat busuioc — partenerul perfect al roșiilor!</p>
-      <img src="images/rosii.jpeg" alt="Roșii plantate" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
-      <h3>💡 Sfatul nostru</h3>
-      <p>Nu te grăbi să plantezi. Un teren pregătit în tihnă face diferența între o recoltă mediocră și una abundentă. Roșiile îți vor mulțumi din plin! 🍅</p>
-    `
-  },
+  
   {
     id: "plante-companion",
     title: "Plante companion: cine se înțelege bine în grădină",
