@@ -642,3 +642,4 @@ body.despre-page {
 @media (max-width: 900px) {
   .garden-photo img { height: 260px; }
 }
+.hero-bg { background-image: url('../images/greieri_poster.jpg'); }
