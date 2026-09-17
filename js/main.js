@@ -113,3 +113,25 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     }
   });
 });
+
+/* ─── Sunetul grădinii ─────────────────────────── */
+(function () {
+  var btn = document.getElementById('soundToggle');
+  var snd = document.getElementById('ambientSound');
+  if (!btn || !snd) return;
+
+  snd.volume = 0.55;
+
+  btn.addEventListener('click', function () {
+    if (snd.paused) {
+      snd.play().then(function () {
+        btn.classList.add('is-on');
+        btn.setAttribute('aria-label', 'Oprește sunetul');
+      }).catch(function () {});
+    } else {
+      snd.pause();
+      btn.classList.remove('is-on');
+      btn.setAttribute('aria-label', 'Pornește sunetul grădinii');
+    }
+  });
+})();
