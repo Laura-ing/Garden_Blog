@@ -608,3 +608,16 @@ body.despre-page {
   .hero-video { display: none; }
 }
 
+/* ─── Două poze în secțiunea Grădina ─────────────── */
+.garden-img {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.garden-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
