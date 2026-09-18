@@ -135,3 +135,13 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     }
   });
 })();
+
+/* ─── Video hero: versiune pentru telefon sau desktop ─── */
+(function () {
+  var v = document.querySelector('.hero-video');
+  if (!v) return;
+  var telefon = window.matchMedia('(max-width: 700px)').matches;
+  v.poster = telefon ? 'images/greieri_poster_portret.jpg' : 'images/greieri_poster.jpg';
+  v.src    = telefon ? 'images/greieri_portret.mp4'        : 'images/cantat_de_greieri.mp4';
+  v.play().catch(function () {});
+})();
