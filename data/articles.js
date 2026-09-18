@@ -109,7 +109,7 @@ const ARTICLES = [
   {
     id: "plante-companion",
     title: "Plante companion: cine se înțelege bine în grădină",
-    date: "2026-06-01",
+    date: "2026-09-01",
     category: "Permacultura",
     tags: ["plante companion", "biodiversitate", "legume", "permacultură"],
     image: "images/rosii_mari_galbenele.jpg",
