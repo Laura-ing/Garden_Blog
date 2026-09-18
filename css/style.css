@@ -679,3 +679,68 @@ body.despre-page {
   .sound-toggle { right: 1rem; bottom: 1.6rem; padding: 0.5rem; }
   .sound-toggle .sound-label { display: none; }
 }
+/* ─── Poze mărite la click ─────────────────────── */
+.article-content img { cursor: zoom-in; transition: filter 0.25s ease; }
+.article-content img:hover { filter: brightness(1.07); }
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background: rgba(20, 18, 14, 0.93);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3vh 3vw;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  cursor: zoom-out;
+}
+
+.lightbox.open { opacity: 1; pointer-events: auto; }
+
+.lightbox img {
+  max-width: 100%;
+  max-height: 94vh;
+  border-radius: 10px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.4rem;
+  background: none;
+  border: none;
+  color: rgba(253, 250, 244, 0.85);
+  font-size: 2.2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+/* ─── Galerii în articole ──────────────────────── */
+.article-content .galerie {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+  margin: 1.5rem 0;
+}
+.article-content .galerie figure { margin: 0; text-align: center; }
+.article-content .galerie img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.article-content .galerie figcaption {
+  font-size: 0.8rem;
+  margin-top: 4px;
+  opacity: 0.75;
+}
+/* ─── Titlul din hero: tot crem, tot italic ────── */
+.hero-title,
+.hero-title em {
+  color: #f5f0e8;
+  font-style: italic;
+}
+
