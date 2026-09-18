@@ -145,3 +145,33 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   v.src    = telefon ? 'images/greieri_portret.mp4'        : 'images/cantat_de_greieri.mp4';
   v.play().catch(function () {});
 })();
+/* ─── Poze mărite la click, în articole ─────────── */
+(function () {
+  var container = document.getElementById('article-container');
+  if (!container) return;
+
+  var box = document.createElement('div');
+  box.className = 'lightbox';
+  box.innerHTML = '<button class="lightbox-close" aria-label="Închide">&times;</button><img alt="">';
+  document.body.appendChild(box);
+  var boxImg = box.querySelector('img');
+
+  container.addEventListener('click', function (e) {
+    var img = e.target.closest('img');
+    if (!img) return;
+    boxImg.src = img.src;
+    boxImg.alt = img.alt || '';
+    box.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  });
+
+  function inchide() {
+    box.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  box.addEventListener('click', inchide);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') inchide();
+  });
+})();
