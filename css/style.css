@@ -747,3 +747,7 @@ body.despre-page {
 .hero-title {
   text-shadow: 0 2px 18px rgba(30, 28, 22, 0.55);
 }
+.hero-content .btn {
+  color: var(--green-4);
+  border-color: var(--green-4);
+}
