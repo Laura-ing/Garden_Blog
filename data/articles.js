@@ -158,11 +158,50 @@ const ARTICLES = [
     excerpt: "Am descoperit pe plantele de cartofi o creatură impresionantă — omida sfingidă. Mare, verde, cu marcaje fascinante. Ce facem cu ea în grădina de permacultură?",
     content: `
       <p>Era o dimineață obișnuită de iulie când, controlând plantele de cartofi, am dat peste ea: o omidă uriașă, aproape cât degetul meu, de un verde intens cu marcaje albastre și galbene pe corp.</p>
+
+      <figure style="margin:1.8rem 0;">
+        <img src="images/omida_intreaga.jpg" alt="Omida văzută de sus" style="width:100%; max-width:420px; display:block; margin:0 auto; border-radius:12px;" />
+        <figcaption style="font-size:0.85rem; margin-top:6px; text-align:center; opacity:0.75;">Verde, turcoaz și galben — cât un deget de mare</figcaption>
+      </figure>
+
       <p>Primul impuls a fost să o scot. Dar am stat și m-am uitat la ea. Era atât de frumoasă, atât de vie, atât de perfectă în felul ei.</p>
+
       <h3>Ce este omida sfingidă?</h3>
       <p>Omida sfingidă este larva unui fluture sfinx — un fluture nocturn elegant, cu aripi late care poate zbura ca o colibri. În grădina de permacultură, prezența ei este un semn de biodiversitate activă.</p>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(140px, 1fr)); gap:10px; margin:1.5rem 0;">
+        <figure style="margin:0; text-align:center;">
+          <img src="images/omida_profil.jpg" alt="Omida din profil" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
+          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Din profil</figcaption>
+        </figure>
+        <figure style="margin:0; text-align:center;">
+          <img src="images/omida_marime.jpg" alt="Omida, cu degetul alături pentru comparație" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
+          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Cât de mare e</figcaption>
+        </figure>
+        <figure style="margin:0; text-align:center;">
+          <img src="images/omida_cap.jpg" alt="Capul omizii" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
+          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Capul</figcaption>
+        </figure>
+        <figure style="margin:0; text-align:center;">
+          <img src="images/omida_detaliu.jpg" alt="Picioarele omizii, în detaliu" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
+          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Picioarele, de aproape</figcaption>
+        </figure>
+        <figure style="margin:0; text-align:center;">
+          <img src="images/omida_pe_tulpina.jpg" alt="Omida pe tulpina de cartof" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
+          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Pe tulpina de cartof</figcaption>
+        </figure>
+      </div>
+
       <h3>Decizia noastră</h3>
       <p>Am ales să o lăsăm. Am mutat-o pe o plantă mai puternică, i-am urmărit evoluția zilnic împreună cu copiii. Timp de două săptămâni a fost cea mai fascinantă lecție de biologie pe care o puteam oferi.</p>
+
+      <figure style="margin:1.5rem 0;">
+        <video controls preload="none" playsinline poster="images/omida_video_poster.jpg" style="width:100%; max-width:340px; display:block; margin:0 auto; border-radius:12px;">
+          <source src="images/omida_video.mp4" type="video/mp4">
+        </video>
+        <figcaption style="font-size:0.85rem; margin-top:6px; text-align:center; opacity:0.75;">Omida, în mișcare</figcaption>
+      </figure>
+
       <p>Grădina nu este un sistem steril — este un ecosistem viu, unde fiecare creatură are rolul ei.</p>
     `
   },
@@ -189,7 +228,7 @@ const ARTICLES = [
     `
   },
   {
-    id: "gradina-cu-copiii",
+    id: "gradina-cu-copii",
     title: "Cum să faci grădinărit cu copiii mici",
     date: "2024-05-20",
     category: "Copii & Natură",
