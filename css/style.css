@@ -756,3 +756,4 @@ body.despre-page {
   object-fit: cover;
 }
 .divider { display: none; }
+:root { color-scheme: light; }
