@@ -89,7 +89,7 @@ const ARTICLES = [
         </figure>
         <figure style="flex:1 1 140px; margin:0; text-align:center;">
           <img src="images/ceapa.jpg" alt="Ardei iuți" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
-          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Ardei iuți</figcaption>
+          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Ceapă</figcaption>
         </figure>
       </div>
       <p>Cel mai frumos lucru n-a fost recolta, ci copiii care treceau singuri pe la grădina lor, să vadă ce-a mai crescut.</p>
