@@ -204,7 +204,7 @@ const ARTICLES = [
       <p>Există ceva primar în relația unui copil cu pământul. Nu trebuie să îi înveți să atingă, să sape, să miroase. O fac instinctiv.</p>
 
       <h3>Activități potrivite pe vârste</h3>
-      <p><strong>2–4 ani:</strong> Stropitul, colectat pietre, udat din stropitoare mică.</p>
+      <p><strong>2–4 ani:</strong> Udat din stropitoare mică, cules recolta.</p>
 
       <figure style="margin:1.5rem 0;">
         <img src="images/manute_fragute.jpg" alt="Mânuțe culegând frăguțe" style="width:100%; max-width:460px; display:block; margin:0 auto; border-radius:12px;" />
@@ -244,9 +244,12 @@ const ARTICLES = [
       <h3>🍓 Doi stoloni și un loc pentru ei</h3>
       <p>Am dat iarba la o parte, am deschis pământul cât să încapă rădăcinile, am așezat stolonii și am pus paiele  peste ei.</p>
 
-      <div style="text-align:center; margin:1.5rem 0;">
-        <img src="images/sapat.gif" alt="Fetița face loc pentru stolonii de căpșuni" style="width:100%; border-radius:12px;" />
-      </div>
+      <figure style="margin:1.5rem 0;">
+        <video autoplay muted loop playsinline style="width:100%; max-width:340px; display:block; margin:0 auto; border-radius:12px;">
+          <source src="images/sapat.mp4" type="video/mp4">
+        </video>
+        <figcaption style="font-size:0.85rem; margin-top:6px; text-align:center; opacity:0.75;">Face loc pentru stolonii de căpșuni</figcaption>
+      </figure>
 
       <h3>🌱 De ce nu săpăm, dar tot deschidem pământul</h3>
       <p>În grădina noastră nu întoarcem solul și nu-l lăsăm niciodată gol — paiele stau peste el tot anul. Dar fiecare plantă are nevoie de un loc al ei.</p>
