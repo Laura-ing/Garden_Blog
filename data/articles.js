@@ -96,6 +96,10 @@ const ARTICLES = [
           <img src="images/ceapa.jpg" alt="Ceapă" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
           <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Ceapă</figcaption>
         </figure>
+        <figure style="margin:0; text-align:center;">
+          <img src="images/telina_mare.jpg" alt="Țelină" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
+          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Țelină</figcaption>
+        </figure>
       </div>
 
       <p>Cel mai frumos lucru n-a fost recolta, ci copiii care treceau singuri pe la grădina lor, să vadă ce-a mai crescut.</p>
@@ -198,8 +202,8 @@ const ARTICLES = [
       <h3>Copiii și pământul — o conexiune naturală</h3>
       <p>Există ceva primar în relația unui copil cu pământul. Nu trebuie să îi înveți să atingă, să sape, să miroase. O fac instinctiv.</p>
       <h3>Activități potrivite pe vârste</h3>
-      <p><strong>2–4 ani:</strong> Stropitul, colectat pietre, udat din stropitoare mică.</p>
-      <p><strong>5–7 ani:</strong> Plantat semințe, recoltat legume coapte, observat insecte cu lupa.</p>
+      <p><strong>2–4 ani:</strong> Udat din stropitoare mică, adunat recoltă.</p>
+      <p><strong>5–7 ani:</strong> Plantat semințe, observat insecte cu lupa.</p>
       <p><strong>8+ ani:</strong> Responsabilitate proprie — o zonă a lor, un proiect al lor.</p>
       <h3>Ce câștigă copiii</h3>
       <p>Dincolo de cunoștințele despre natură, grădina le oferă copiilor ceva mai profund: experiența că efortul duce la rezultate vizibile. Asta nu se predă — se trăiește.</p>
