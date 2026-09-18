@@ -737,10 +737,13 @@ body.despre-page {
   margin-top: 4px;
   opacity: 0.75;
 }
-/* ─── Titlul din hero: tot crem, tot italic ────── */
+/* ─── Titlul din hero ──────────────────────────── */
 .hero-title,
 .hero-title em {
-  color: #f5f0e8;
+  color: #e8dfc8;
   font-style: italic;
 }
 
+.hero-title {
+  font-size: clamp(1.8rem, 4.2vw, 3rem);
+}
