@@ -750,3 +750,9 @@ body.despre-page {
 .hero-content .btn {
   color: var(--green-4);
 }
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.divider { display: none; }
