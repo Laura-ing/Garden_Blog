@@ -745,5 +745,5 @@ body.despre-page {
 }
 
 .hero-title {
-  font-size: clamp(1.8rem, 4.2vw, 3rem);
+  text-shadow: 0 2px 18px rgba(30, 28, 22, 0.55);
 }
