@@ -229,26 +229,33 @@ const ARTICLES = [
       <p>Și da, pantofii vor fi mereu murdari. Merită din plin.</p>
     `
   },
-  {
+    {
     id: "fetita-sapa-capsuni",
-    title: "Micuța grădinărită — cum am plantat primii stoloni de căpșuni",
+    title: "Micuța grădinăriță — primii stoloni de căpșuni",
     date: "2026-05-01",
     category: "Copii & Natură",
-    tags: ["copii", "căpșuni", "plantat", "grădină", "1 mai"],
+    tags: ["copii", "căpșuni", "plantat", "permacultură", "1 mai"],
     image: "images/capsuna.jpeg",
     author: "Laura",
-    excerpt: "De 1 Mai, o fetiță curajoasă a luat sapa în mână și a plantat primii stoloni de căpșuni în grădina noastră. O lecție despre curaj, pământ și răbdare.",
+    excerpt: "De 1 Mai, o fetiță hotărâtă a plantat primii stoloni de căpșuni din grădină. Și ne-a dat ocazia să explicăm de ce, deși nu săpăm, tot deschidem pământul din când în când.",
     content: `
-      <p>De 1 Mai 2026, grădina noastră a avut un oaspete special — verișoara băieților, o fetiță plină de curaj și entuziasm care a decis că vrea să planteze căpșuni.</p>
-      <p>Nu a stat pe gânduri. A luat sapa și a început să sape — hotărâtă, serioasă, concentrată. Ca un adevărat grădinar. 🌱</p>
+      <p>De 1 Mai 2026, grădina noastră a avut un oaspete special — Ana, o fetiță plină de curaj, care a hotărât că vrea să planteze căpșuni. Și nu a stat pe gânduri.</p>
+
+      <h3>🍓 Doi stoloni și un loc pentru ei</h3>
+      <p>Am dat iarba la o parte, am deschis pământul cât să încapă rădăcinile, am așezat stolonii și am pus paiele  peste ei.</p>
+
       <div style="text-align:center; margin:1.5rem 0;">
-        <img src="images/sapat.gif" alt="Fetița sapă în grădină" style="width:100%; border-radius:12px;" />
+        <img src="images/sapat.gif" alt="Fetița face loc pentru stolonii de căpșuni" style="width:100%; border-radius:12px;" />
       </div>
-      <h3>🍓 Primii stoloni de căpșuni</h3>
-      <p>Am plantat împreună 2 stoloni de căpșuni — mici, fragili, dar plini de promisiuni. Fiecare a intrat în pământ cu grijă, acoperit cu drag.</p>
+
+      <h3>🌱 De ce nu săpăm, dar tot deschidem pământul</h3>
+      <p>În grădina noastră nu întoarcem solul și nu-l lăsăm niciodată gol — paiele stau peste el tot anul. Dar fiecare plantă are nevoie de un loc al ei.</p>
+      <p>E o nuanță mică, dar exact ea face metoda să funcționeze.</p>
+
       <img src="images/capsuna.jpeg" alt="Căpșuni plantate" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
-      <h3>💡 Ce am învățat în acea zi</h3>
-      <p>Copiii nu au nevoie de instrucțiuni complicate. Au nevoie de un colț de pământ, o sapă și permisiunea de a face lucrurile singuri. Restul vine natural. 🍓</p>
+
+      <h3>💡 Ce am învățat în ziua aceea</h3>
+      <p>Copiii nu au nevoie de instrucțiuni complicate. Au nevoie de un colț de pământ, o unealtă pe măsura lor și permisiunea de a face lucrurile singuri. Restul vine de la sine. 🍓</p>
     `
   },
   {
