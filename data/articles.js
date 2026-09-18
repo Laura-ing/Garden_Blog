@@ -11,7 +11,7 @@ const ARTICLES = [
     date: "2026-09-06",
     category: "Permacultura",
     tags: ["permacultură", "sol viu", "observație", "lecții", "recoltă"],
-    image: "images/gradina.jpg",
+    image: "images/gradina_ansamblu.jpg",
     author: "Laura",
     series: "Anul 2 de experiment",
     excerpt: "Un an întreg, de la sădit la recoltă: ce am semănat, cum a crescut și ce ne-a dat înapoi grădina — fără efort mare.",
@@ -53,14 +53,16 @@ const ARTICLES = [
 
       <h3>🍂 Recoltă</h3>
       <p>Toamna a venit cu dovlecei cât brațul, ardei iuți în ciorchine, roșii coapte lângă gălbenele și cateva găleți de cartofi. Fără sapă, fără îngrășăminte — doar timp, apă și căldură  .</p>
+        <figure style="margin:1.8rem 0;">
+        <img src="images/cartofi_rod.jpg" alt="Trei cartofi scoși din pământ" style="width:100%; height:300px; object-fit:cover; object-position:62% 78%; border-radius:12px; display:block;" />
+        <figcaption style="font-size:0.85rem; margin-top:6px; text-align:center; opacity:0.75;">Primii trei, scoși cu mâna din pământul de sub fân</figcaption>
+      </figure>
+
       <video controls preload="none" playsinline poster="images/cartof_scoatere_poster.jpg" style="width:100%; max-width:340px; display:block; margin:1.5rem auto; border-radius:12px;">
         <source src="images/cartof_scoatere.mp4" type="video/mp4">
       </video>
+
       <div style="display:flex; flex-wrap:wrap; gap:10px; margin:1.5rem 0;">
-        <figure style="flex:1 1 140px; margin:0; text-align:center;">
-          <img src="images/cartofi_rod.jpg" alt="Recolta de cartofi" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
-          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Cartofi</figcaption>
-        </figure>
         <figure style="flex:1 1 140px; margin:0; text-align:center;">
           <img src="images/mazare_rod.jpg" alt="Mazăre în păstăi" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
           <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Mazăre</figcaption>
@@ -86,8 +88,13 @@ const ARTICLES = [
           <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Ardei iuți</figcaption>
         </figure>
       </div>
-      <p>Cel mai frumos lucru n-a fost recolta, ci copii care treceau singuri pe la grădina lor, să vadă ce-a mai crescut.</p>
-    `
+      <p>Cel mai frumos lucru n-a fost recolta, ci copiii care treceau singuri pe la grădina lor, să vadă ce-a mai crescut.</p>
+      
+      <figure style="margin:1.8rem 0;">
+        <img src="images/david.jpg" alt="David în grădină" style="width:100%; max-width:420px; display:block; margin:0 auto; border-radius:12px;" />
+        <figcaption style="font-size:0.85rem; margin-top:6px; text-align:center; opacity:0.75;">David, prin grădina lui</figcaption>
+      </figure>
+      `
   },
   
   {
