@@ -179,9 +179,10 @@ const ARTICLES = [
           <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Fața omizii, de aproape</figcaption>
         </figure>
         <figure style="margin:0; text-align:center;">
-          <img src="images/omida_intreaga.jpg" alt="Ce culori frumoase!" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
-          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Ce culori frumoase!</figcaption>
+          <img src="images/omida_pe_tulpina.jpg" alt="Făcând cunoștință" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
+          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Făcând cunoștință</figcaption>
         </figure>
+
       </div>
 
       <h3>Decizia noastră</h3>
