@@ -14,9 +14,9 @@ const ARTICLES = [
     image: "images/gradina.jpeg",
     author: "Laura",
     series: "Anul 2 de experiment",
-    excerpt: "Un an întreg, de la sădit la recoltă: ce am semănat, cum a crescut și ce ne-a dat înapoi grădina — fără sapă, fără muncă multă.",
+    excerpt: "Un an întreg, de la sădit la recoltă: ce am semănat, cum a crescut și ce ne-a dat înapoi grădina — fără efort mare.",
     content: `
-      <p>Am pornit cu cei doi băieței lângă mine și un petic de pământ pe care voiam doar să-l încercăm.</p>
+      <p>Și anul acesta am vrut să punem pământul la încercare și să vedem dacă se pot culege roade și fără uneltele tradiționale.</p>
 
       <h3>🌱 Semănat</h3>
       <p>Am extins puțin față de primul an. Solul, hrănit ani la rând din fân depozitat, era gata pentru mai mult. Am pus:</p>
@@ -34,9 +34,9 @@ const ARTICLES = [
       <p>Cea mai mare lecție a fost simplă: solul contează mai mult decât planta.</p>
 
       <h3>🍂 Recoltă</h3>
-      <p>Toamna a venit cu dovlecei cât brațul, ardei iuți în ciorchine, roșii coapte lângă gălbenele si cateva găleți de cartofi. Fără sapă, fără îngrășăminte — doar timp.</p>
+      <p>Toamna a venit cu dovlecei cât brațul, ardei iuți în ciorchine, roșii coapte lângă gălbenele și cateva găleți de cartofi. Fără sapă, fără îngrășăminte — doar timp, apă și căldură  .</p>
       <img src="images/dovlecei.jpeg" alt="Dovlecei din grădină" style="width:100%; border-radius:12px; margin:1.5rem 0;" />
-      <p>Cel mai frumos lucru n-a fost recolta, ci băieții care treceau singuri pe la mazărea și căpșunile lor, să vadă ce-a mai crescut.</p>
+      <p>Cel mai frumos lucru n-a fost recolta, ci copii care treceau singuri pe la grădina lor, să vadă ce-a mai crescut.</p>
     `
   },
   
