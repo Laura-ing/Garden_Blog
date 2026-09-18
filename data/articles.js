@@ -16,13 +16,13 @@ const ARTICLES = [
     series: "Anul 2 de experiment",
     excerpt: "Un an întreg, de la sădit la recoltă: ce am semănat, cum a crescut și ce ne-a dat înapoi grădina — fără efort mare.",
     content: `
-      <p>Și anul acesta am vrut să punem pământul la încercare și să vedem dacă se pot culege roade și fără uneltele tradiționale.</p>
+      <p>Și anul acesta am vrut să vedem dacă pământul dă roade fără să fie lucrat — fără unelte, fără intervenții, doar acoperit cu paie de la plantat până la cules.</p>
 
       <h3>🌱 Semănat</h3>
       <p>Am extins puțin față de primul an. Solul, hrănit ani la rând din fân depozitat, era gata pentru mai mult. Am pus:</p>
       <ul>
         <li>🥔 <strong>Cartofi</strong></li>
-        <li>🧄 <strong>Usturoi</strong></li>
+        <li>🧅 <strong>Ceapă</strong></li>
         <li>🍅 <strong>Roșii</strong></li>
         <li>🌿 <strong>Țelină</strong></li>
         <li>🥒 <strong>Dovlecei</strong></li>
@@ -32,20 +32,20 @@ const ARTICLES = [
       <h3>🌿 Crescut</h3>
       <p>Am vrut să intervenim cât mai puțin. Am privit mai mult decât am făcut — și tot ce părea buruiană avea, de fapt, un rost: pătlagina ne spunea că solul e bătătorit pe alocuri, urzica ne spunea unde e azot din belșug.</p>
       <p>Cea mai mare lecție a fost simplă: solul contează mai mult decât planta.</p>
-      <div style="display:flex; flex-wrap:wrap; gap:10px; margin:1.5rem 0;">
-        <figure style="flex:1 1 140px; margin:0; text-align:center;">
+      style="display:grid; grid-template-columns:repeat(auto-fill, minmax(140px, 1fr)); gap:10px; margin:1.5rem 0;"
+        <figure style="margin:0; text-align:center;">
           <img src="images/mazare_mica.jpg" alt="Mazăre tânără" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
           <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Mazăre</figcaption>
         </figure>
-        <figure style="flex:1 1 140px; margin:0; text-align:center;">
+        <figure style="margin:0; text-align:center;">
           <img src="images/fasole_mica.jpg" alt="Fasole tânără" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
           <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Fasole</figcaption>
         </figure>
-        <figure style="flex:1 1 140px; margin:0; text-align:center;">
+        <figure style="margin:0; text-align:center;">
           <img src="images/dovlecei_mic.jpeg" alt="Dovlecel tânăr" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
           <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Dovlecei</figcaption>
         </figure>
-        <figure style="flex:1 1 140px; margin:0; text-align:center;">
+        <figure style="margin:0; text-align:center;">
           <img src="images/cartofi_primul_an.jpg" alt="Cartofi în creștere" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
           <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Cartofi</figcaption>
         </figure>
@@ -58,36 +58,39 @@ const ARTICLES = [
         <figcaption style="font-size:0.85rem; margin-top:6px; text-align:center; opacity:0.75;">Primii trei, scoși cu mâna din pământul de sub fân</figcaption>
       </figure>
 
-      <video controls preload="none" playsinline poster="images/cartof_scoatere_poster.jpg" style="width:100%; max-width:340px; display:block; margin:1.5rem auto; border-radius:12px;">
-        <source src="images/cartof_scoatere.mp4" type="video/mp4">
-      </video>
+      <figure style="margin:1.5rem 0;">
+        <video controls preload="none" playsinline poster="images/cartof_scoatere_poster.jpg" style="width:100%; max-width:340px; display:block; margin:0 auto; border-radius:12px;">
+          <source src="images/cartof_scoatere.mp4" type="video/mp4">
+        </video>
+        <figcaption style="font-size:0.85rem; margin-top:6px; text-align:center; opacity:0.75;">Surprize de sub paie</figcaption>
+      </figure>
 
       <div style="display:flex; flex-wrap:wrap; gap:10px; margin:1.5rem 0;">
-        <figure style="flex:1 1 140px; margin:0; text-align:center;">
+        <figure style="margin:0; text-align:center;">
           <img src="images/mazare_rod.jpg" alt="Mazăre în păstăi" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
           <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Mazăre</figcaption>
         </figure>
-        <figure style="flex:1 1 140px; margin:0; text-align:center;">
+        <figure style="margin:0; text-align:center;">
           <img src="images/fasole_rod.jpg" alt="Fasole culeasă" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
           <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Fasole</figcaption>
         </figure>
-        <figure style="flex:1 1 140px; margin:0; text-align:center;">
+        <figure style="margin:0; text-align:center;">
           <img src="images/rosii_mari2.jpg" alt="Roșii coapte" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
           <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Roșii</figcaption>
         </figure>
-        <figure style="flex:1 1 140px; margin:0; text-align:center;">
+        <figure style="margin:0; text-align:center;">
           <img src="images/dovlecei_mari.jpg" alt="Dovlecei mari" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
           <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Dovlecei</figcaption>
         </figure>
-        <figure style="flex:1 1 140px; margin:0; text-align:center;">
-          <img src="images/dovlecei_cultura2.jpg" alt="Cultura de dovlecei" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
-          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Cultura de dovlecei</figcaption>
+        <figure style="margin:0; text-align:center;">
+          <img src="images/dovlecei_cultura2.jpg" alt="Dovleceii vedeta sezonului" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
+          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Dovleceii vedeta sezonului</figcaption>
         </figure>
-        <figure style="flex:1 1 140px; margin:0; text-align:center;">
+        <figure style="margin:0; text-align:center;">
           <img src="images/ardei_iute_mare.jpg" alt="Ardei iuți" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
           <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Ardei iuți</figcaption>
         </figure>
-        <figure style="flex:1 1 140px; margin:0; text-align:center;">
+        <figure style="margin:0; text-align:center;">
           <img src="images/ceapa.jpg" alt="Ardei iuți" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
           <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Ceapă</figcaption>
         </figure>
