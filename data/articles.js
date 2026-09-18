@@ -199,12 +199,31 @@ const ARTICLES = [
     excerpt: "Nu e nevoie de o grădină perfectă — e nevoie de răbdare, curiozitate și acceptarea că picioarele vor fi mereu murdare de pământ bun.",
     content: `
       <p>Când am decis să implicăm copiii în grădină, cea mai mare teamă a mea era că nu vor fi interesați. M-am înșelat complet.</p>
+
       <h3>Copiii și pământul — o conexiune naturală</h3>
       <p>Există ceva primar în relația unui copil cu pământul. Nu trebuie să îi înveți să atingă, să sape, să miroase. O fac instinctiv.</p>
+
       <h3>Activități potrivite pe vârste</h3>
-      <p><strong>2–4 ani:</strong> Udat din stropitoare mică, adunat recoltă.</p>
-      <p><strong>5–7 ani:</strong> Plantat semințe, observat insecte cu lupa.</p>
+      <p><strong>2–4 ani:</strong> Stropitul, colectat pietre, udat din stropitoare mică.</p>
+
+      <figure style="margin:1.5rem 0;">
+        <img src="images/manute_fragute.jpg" alt="Mânuțe culegând frăguțe" style="width:100%; max-width:460px; display:block; margin:0 auto; border-radius:12px;" />
+        <figcaption style="font-size:0.85rem; margin-top:6px; text-align:center; opacity:0.75;">Culesul frăguțelor — prima recoltă a celor mici</figcaption>
+      </figure>
+
+      <p><strong>5–7 ani:</strong> Plantat semințe, recoltat legume coapte, observat insecte cu lupa.</p>
       <p><strong>8+ ani:</strong> Responsabilitate proprie — o zonă a lor, un proiect al lor.</p>
+
+      <h3>Partea creativă</h3>
+      <p>De pe la 6 ani încolo, grădina nu mai e doar de îngrijit — devine și un loc de făcut frumos. O buturugă veche se transformă în jardinieră, pietrele adunate primăvara ajung bordură, iar florile se aranjează după culori, nu după reguli.</p>
+
+      <figure style="margin:1.5rem 0;">
+        <img src="images/flor_in_buturuga.jpg" alt="Flori plantate într-o buturugă" style="width:100%; max-width:460px; display:block; margin:0 auto; border-radius:12px;" />
+        <figcaption style="font-size:0.85rem; margin-top:6px; text-align:center; opacity:0.75;">O buturugă devenită ghiveci</figcaption>
+      </figure>
+
+      <p>E genul de activitate în care copilul hotărăște singur cum arată rezultatul — și tocmai de aceea ține la el.</p>
+
       <h3>Ce câștigă copiii</h3>
       <p>Dincolo de cunoștințele despre natură, grădina le oferă copiilor ceva mai profund: experiența că efortul duce la rezultate vizibile. Asta nu se predă — se trăiește.</p>
       <p>Și da, pantofii vor fi mereu murdari. Merită din plin.</p>
