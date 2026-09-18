@@ -175,20 +175,12 @@ const ARTICLES = [
           <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Din profil</figcaption>
         </figure>
         <figure style="margin:0; text-align:center;">
-          <img src="images/omida_marime.jpg" alt="Omida, cu degetul alături pentru comparație" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
-          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Cât de mare e</figcaption>
+          <img src="images/omida_detaliu.jpg" alt="Fața omizii, în detaliu" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
+          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Fața omizii, de aproape</figcaption>
         </figure>
         <figure style="margin:0; text-align:center;">
-          <img src="images/omida_cap.jpg" alt="Capul omizii" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
-          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Capul</figcaption>
-        </figure>
-        <figure style="margin:0; text-align:center;">
-          <img src="images/omida_detaliu.jpg" alt="Picioarele omizii, în detaliu" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
-          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Picioarele, de aproape</figcaption>
-        </figure>
-        <figure style="margin:0; text-align:center;">
-          <img src="images/omida_pe_tulpina.jpg" alt="Omida pe tulpina de cartof" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
-          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Pe tulpina de cartof</figcaption>
+          <img src="images/omida_intreaga.jpg" alt="Ce culori frumoase!" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
+          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Ce culori frumoase!</figcaption>
         </figure>
       </div>
 
