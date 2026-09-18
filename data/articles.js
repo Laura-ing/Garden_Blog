@@ -87,13 +87,13 @@ const ARTICLES = [
           <img src="images/ardei_iute_mare.jpg" alt="Ardei iuți" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
           <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Ardei iuți</figcaption>
         </figure>
+        <figure style="flex:1 1 140px; margin:0; text-align:center;">
+          <img src="images/ceapa.jpg" alt="Ardei iuți" style="width:100%; height:150px; object-fit:cover; border-radius:10px;" />
+          <figcaption style="font-size:0.8rem; margin-top:4px; opacity:0.75;">Ardei iuți</figcaption>
+        </figure>
       </div>
       <p>Cel mai frumos lucru n-a fost recolta, ci copiii care treceau singuri pe la grădina lor, să vadă ce-a mai crescut.</p>
-      
-      <figure style="margin:1.8rem 0;">
-        <img src="images/david.jpg" alt="David în grădină" style="width:100%; max-width:420px; display:block; margin:0 auto; border-radius:12px;" />
-        <figcaption style="font-size:0.85rem; margin-top:6px; text-align:center; opacity:0.75;">David, prin grădina lui</figcaption>
-      </figure>
+
       `
   },
   
